@@ -1,0 +1,47 @@
+{
+    "intents": [
+        {
+            "tag": "salam_pembuka",
+            "patterns": [
+                "halo",
+                "hai",
+                "hei",
+                "permisi"
+            ],
+            "responses": [
+                "Halo, ada yang bisa kami bantu ?",
+                "Hai, perlu bantuan ?"
+            ]
+        },
+        {
+            "tag": "salam_penutup",
+            "patterns": [
+                "terima kasih",
+                "sampai jumpa",
+                "selamat tinggal",
+                "thank you informasinya",
+                "terima kasih infonya"
+            ],
+            "responses": [
+                "Terima kasih, ada yang bisa kami bantu lagi ?",
+                "Senang bisa membantu anda, perlu bantuan lagi ?"
+            ]
+        },
+        {
+            "tag": "definisi_upapkk",
+            "patterns": [
+                "apa itu upa-pkk upn jawa timur ?",
+                "apa kepanjangan dari upa-pkk upn jatim ?",
+                "bagaimana sejarah dari upa-pkk upnvjt ?",
+                "kapan upa-pkk upn jatim berdiri ?",
+                "apa tujuan berdirinya upa-pkk upn jatim ?",
+                "apa visi misi upa-pkk upnvjt ?",
+                "apa saja program kerja dari upa-pkk upnjatim ?",
+                "apa fungsi dari upa-pkk upnjatim ?"
+            ],
+            "responses": [
+                "UPA-PKK (Unit Pendukung Akademik Pengembangan Karir dan Kewirausahaan) merupakan unit pelayanan teknis di tingkat Universitas yang mempunyai fungsi pelayanan di bidang pengembangan karir dan kewirausahaan mahasiswa-alumni UPN 'Veteran' Jawa Timur. Tujuan dari UPA-PKK antara lain: Membina dan mengembangkan karir mahasiswa dan alumni, Meningkatkan kualitas mahasiswa dan alumni untuk berintegritas dengan dunia usaha, Pengembangan hubungan dan kerjasama kealumnian, dan Membina jiwa wirausaha dan keprofesionalisme mahasiswa sebagai bekal memasuki dunia kerja. Visi dari UPA-PKK ialah sebagai pusat informasi lowongan kerja dan pembinaan karir serta pengembangan kewirausahaan dalam mempersiapkan mahasiswa dan alumni yang tangguh, inovatif, dan kreatif dalam dunia kerja seta memiliki jiwa wirausaha dalam menghadapi era globalisasi. Misi dari UPA-PKK ialah Mempersiapkan mahasiswa dan alumni UPN “Veteran” Jawa Timur untuk memiliki kemampuan dengan standar kompetensi softskill dan hardskill yang dibutuhkan dunia usaha dan industri, Menciptakan jaringan kerja sama yang seluas-luasnya dengan institusi pemerintah dan DUDI, Memberikan informasi lowongan kerja dan magang, melakukan pembekalan persiapan menghadapai dunia kerja dan kewirausahaan, Melaksanakan kegiatan yang dapat mempercepat tumbuh dan berkembangnya jiwa wirausaha mahasiswa UPN “Veteran” Jawa Timur, dan Melakukan tracer study secara sensus terhadap alumni UPN “Veteran” Jawa Timur. Adapun beberapa program kerja UPA-PKK antara lain: Publikasi Lowongan Kerja, Pembekalan Calon Wisudawan, Campus Hiring, Company Goes to Campus, Pelatihan/Webinar Karir, Konsultasi Karir dan Kewirausahaan, Penyelenggaraan Job Fair, Business Gathering, Kompetesi BMC, Program Mahasiswa Wirausaha, MBKM Kewirausahaan, Tracer Study, dan Survey Karir dan Kewirausahaan."
+            ]
+        }
+    ]
+}
