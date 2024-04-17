@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket Example</title>
+</head>
+
+<body>
+    <h1>WebSocket Example</h1>
+    <div id="json_form">
+        <label for="json_tag_input">Input JSON Tag:</label>
+        <br>
+        <input type="text" id="json_tag_input" name="json_tag_input" required>
+        <br>
+        <br>
+        <button id="add_json_pattern_input">Add JSON Pattern Input</button>
+        <button id="get_json_pattern_values">Get JSON Pattern Values</button>
+        <br>
+        <br>
+        <label for="json_pattern_input">Input JSON Pattern:</label>
+        <div id="json_pattern_container">
+            <input type="text" id="json_pattern_input" name="json_pattern_input[]" required>
+        </div>
+        <br>
+        <button id="add_json_response_input">Add JSON Response Input</button>
+        <button id="get_json_response_values">Get JSON Response Values</button>
+        <br>
+        <br>
+        <label for="json_response_input">Input JSON Response:</label>
+        <div id="json_response_container">
+            <input type="text" id="json_response_input" name="json_response_input[]" required>
+        </div>
+        <br>
+        <button id="add_json_inputs">Add JSON Inputs</button>
+    </div>
+    <br>
+    <form id="chatbot_form">
+        <label for="chatbot_input">Input Text:</label>
+        <input type="text" id="chatbot_input" name="chatbot_input" required>
+        <button type="submit">Process Text</button>
+    </form>
+    <p id="response">Response:</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.js"></script>
+    <script>
+        fetch('./intents.json')
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+
+        const socket = io.connect('http://localhost:5000');  // Replace with your server address
+
+        socket.on('connect', () => {
+            console.log('Connected to the WebSocket server');
+        });
+
+        const form = document.getElementById('chatbot_form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const text = document.getElementById('chatbot_input').value;
+            console.log(text);
+            socket.emit('process_text', text);
+        });
+
+        socket.on('response_text', (response) => {
+            const responseElement = document.getElementById('response');
+            responseElement.textContent = response;
+        });
+
+        let jsonChat = {
+            "intents": [
+                {
+                    "tag": "salam_pembuka",
+                    "patterns": [
+                        "halo",
+                        "hai",
+                        "hei",
+                        "permisi"
+                    ],
+                    "responses": [
+                        "Halo, ada yang bisa kami bantu ?",
+                        "Hai, perlu bantuan ?"
+                    ]
+                },
+                {
+                    "tag": "salam_penutup",
+                    "patterns": [
+                        "terima kasih",
+                        "sampai jumpa",
+                        "selamat tinggal",
+                        "thank you informasinya",
+                        "terima kasih infonya"
+                    ],
+                    "responses": [
+                        "Terima kasih, ada yang bisa kami bantu lagi ?",
+                        "Senang bisa membantu anda, perlu bantuan lagi ?"
+                    ]
+                },
+                {
+                    "tag": "definisi_upapkk",
+                    "patterns": [
+                        "apa itu upa-pkk upn jawa timur ?",
+                        "apa kepanjangan dari upa-pkk upn jatim ?",
+                        "bagaimana sejarah dari upa-pkk upnvjt ?",
+                        "kapan upa-pkk upn jatim berdiri ?",
+                        "apa tujuan berdirinya upa-pkk upn jatim ?",
+                        "apa visi misi upa-pkk upnvjt ?",
+                        "apa saja program kerja dari upa-pkk upnjatim ?",
+                        "apa fungsi dari upa-pkk upnjatim ?"
+                    ],
+                    "responses": [
+                        "UPA-PKK (Unit Pendukung Akademik Pengembangan Karir dan Kewirausahaan) merupakan unit pelayanan teknis di tingkat Universitas yang mempunyai fungsi pelayanan di bidang pengembangan karir dan kewirausahaan mahasiswa-alumni UPN 'Veteran' Jawa Timur. Tujuan dari UPA-PKK antara lain: Membina dan mengembangkan karir mahasiswa dan alumni, Meningkatkan kualitas mahasiswa dan alumni untuk berintegritas dengan dunia usaha, Pengembangan hubungan dan kerjasama kealumnian, dan Membina jiwa wirausaha dan keprofesionalisme mahasiswa sebagai bekal memasuki dunia kerja. Visi dari UPA-PKK ialah sebagai pusat informasi lowongan kerja dan pembinaan karir serta pengembangan kewirausahaan dalam mempersiapkan mahasiswa dan alumni yang tangguh, inovatif, dan kreatif dalam dunia kerja seta memiliki jiwa wirausaha dalam menghadapi era globalisasi. Misi dari UPA-PKK ialah Mempersiapkan mahasiswa dan alumni UPN “Veteran” Jawa Timur untuk memiliki kemampuan dengan standar kompetensi softskill dan hardskill yang dibutuhkan dunia usaha dan industri, Menciptakan jaringan kerja sama yang seluas-luasnya dengan institusi pemerintah dan DUDI, Memberikan informasi lowongan kerja dan magang, melakukan pembekalan persiapan menghadapai dunia kerja dan kewirausahaan, Melaksanakan kegiatan yang dapat mempercepat tumbuh dan berkembangnya jiwa wirausaha mahasiswa UPN “Veteran” Jawa Timur, dan Melakukan tracer study secara sensus terhadap alumni UPN “Veteran” Jawa Timur. Adapun beberapa program kerja UPA-PKK antara lain: Publikasi Lowongan Kerja, Pembekalan Calon Wisudawan, Campus Hiring, Company Goes to Campus, Pelatihan/Webinar Karir, Konsultasi Karir dan Kewirausahaan, Penyelenggaraan Job Fair, Business Gathering, Kompetesi BMC, Program Mahasiswa Wirausaha, MBKM Kewirausahaan, Tracer Study, dan Survey Karir dan Kewirausahaan."
+                    ]
+                }
+            ]
+        };
+
+        document.getElementById("add_json_pattern_input").addEventListener("click", function () {
+            var container = document.getElementById("json_pattern_container");
+            var input = document.createElement("input");
+            input.type = "text";
+            input.name = "json_pattern_input[]";
+            container.appendChild(input);
+        });
+        document.getElementById("get_json_pattern_values").addEventListener("click", function () {
+            var inputs = document.querySelectorAll('input[name="json_pattern_input[]"]');
+            var inputValues = [];
+
+            for (var i = 0; i < inputs.length; i++) {
+                inputValues.push(inputs[i].value);
+            }
+            console.log(inputValues);
+        });
+        document.getElementById("add_json_response_input").addEventListener("click", function () {
+            var container = document.getElementById("json_response_container");
+            var input = document.createElement("input");
+            input.type = "text";
+            input.name = "json_response_input[]";
+            container.appendChild(input);
+        });
+        document.getElementById("get_json_response_values").addEventListener("click", function () {
+            var inputs = document.querySelectorAll('input[name="json_response_input[]"]');
+            var inputValues = [];
+
+            for (var i = 0; i < inputs.length; i++) {
+                inputValues.push(inputs[i].value);
+            }
+            console.log(inputValues);
+        });
+        document.getElementById("add_json_inputs").addEventListener("click", function () {
+            var patternInputs = document.querySelectorAll('input[name="json_pattern_input[]"]');
+            var inputPatternValues = [];
+            for (var i = 0; i < patternInputs.length; i++) {
+                inputPatternValues.push(patternInputs[i].value);
+            }
+            var responseInputs = document.querySelectorAll('input[name="json_response_input[]"]');
+            var inputResponseValues = [];
+
+            for (var i = 0; i < responseInputs.length; i++) {
+                inputResponseValues.push(responseInputs[i].value);
+            }
+
+            jsonChat.intents.push(
+                {
+                    "tag": document.getElementById('json_tag_input').value,
+                    "patterns": patternInputs,
+                    "responses": responseInputs
+                }
+            );
+            console.log(jsonChat);
+        });
+    </script>
+</body>
+
+</html>
