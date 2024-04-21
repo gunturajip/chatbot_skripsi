@@ -80,10 +80,12 @@ def predict_class(sentence):
 
 def get_response(intents_list, intents_json):
     tag = intents_list[0]['intent']
+    if (intents_list[0]['intent'] == 'salam_pembuka' or intents_list[0]['intent'] == 'salam_penutup') and len(intents_list) > 1:
+        tag = intents_list[1]['intent']
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
         if i['tag'] == tag:
-            result = random.choice(i['responses'])
+            result = i['responses'][0]
             break
     return result
 
@@ -93,4 +95,5 @@ while True:
     message = input("")
     ints = predict_class(message)
     res = get_response(ints, intents)
+    print(ints)
     print(res)

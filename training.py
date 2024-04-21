@@ -2,6 +2,8 @@ import tensorflow as tf
 from keras.optimizers import SGD
 from keras.layers import Dense
 from keras.models import Sequential
+from sklearn.model_selection import train_test_split
+# from sklearn.metrics import classification_report, confusion_matrix
 
 import random
 import json
@@ -52,7 +54,7 @@ for intent in intents['intents']: # PARSING
 words = sorted(set(words))
 classes = sorted(set(classes))
 
-training = []
+dataset = []
 output_empty = [0] * len(classes)
 for document in documents:
     bag = []
@@ -62,26 +64,29 @@ for document in documents:
 
     output_row = list(output_empty)
     output_row[classes.index(document[1])] = 1
-    training.append([bag, output_row])
+    dataset.append([bag, output_row])
 
-random.shuffle(training)
-training = np.array(training)
+random.shuffle(dataset)
+dataset = np.array(dataset)
 
-train_x = list(training[:, 0])
-train_y = list(training[:, 1])
+X = list(dataset[:, 0])
+y = list(dataset[:, 1])
+
+X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2)
 
 model = Sequential()
-model.add(Dense(32, input_shape=(len(train_x[0]),), activation='relu'))
+model.add(Dense(32, input_shape=(len(X_train[0]),), activation='relu'))
 model.add(Dense(64, activation='relu'))
 model.add(Dense(128, activation='relu'))
-model.add(Dense(len(train_y[0]), activation='softmax'))
+model.add(Dense(len(y_train[0]), activation='softmax'))
 
 sgd = SGD()
 model.compile(loss='categorical_crossentropy',
               optimizer=sgd, metrics=['accuracy'])
 
-hist = model.fit(np.array(train_x), np.array(train_y),
-                 epochs=100, batch_size=5, verbose=1)
+hist = model.fit(np.array(X_train), np.array(y_train),
+                 epochs=100, batch_size=5, verbose=1,
+                 validation_data=(X_val, y_val))
 model.save('chatbot_model_1.h5', hist)
 
 model = tf.keras.models.load_model("chatbot_model_1.h5")

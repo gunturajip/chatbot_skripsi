@@ -1,4 +1,4 @@
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
 import nltk
