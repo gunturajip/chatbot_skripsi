@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{/*  <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+    <script>
+        function clean_up_sentence(sentence) {
+            sentence_words = sentence.split(" ")
+            return sentence_words
+        }
+        function bag_of_words(sentence) {
+            let sentence_words = clean_up_sentence(sentence);
+            let bag = Array(220).fill(0);
+            for (let w of sentence_words) {
+                for (let i = 0; i < 220; i++) {
+                    let word = words[i];
+                    if (word === w) {
+                        bag[i] = 1;
+                    }
+                }
+            }
+            return bag;
+        }
+        async function test() {
+            const sess = new onnx.InferenceSession()
+            await sess.loadModel('./chatbot_model_1.onnx')
+            const question = bag_of_words("Hai, apa kabar?")
+            
+            const input = new onnx.Tensor(new Float32Array(28*28), 'float32', [0,220])
+            const outputMap = await sess.run([input])
+            const outputTensor = outputMap.values().next().value
+            console.log(`Output tensor: ${outputTensor.data}`)
+        }
+        test()
+    </script>  */}}
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+    <script>
+        async function train() {
+            let intents = await fetch(`${window.location.origin}/intents.json`)
+                .then((response) => response.json())
+                .then((json) => json);
+            let stopwords = await fetch(`${window.location.origin}/stopwords.txt`)
+                .then((response) => response.text())
+                .then((text) => text.trim().split('\n'));
+
+            function stopword_kalimat(str) {
+                let result = "";
+                str.split(" ").forEach(word => {
+                    if (!stopwords.includes(word)) {
+                        result += word + " ";
+                    }
+                });
+                return result.trim();
+            }
+
+            let words = [];
+            let classes = [];
+            let documents = [];
+    
+            for await (let intent of intents['intents']) {
+                console.log(intent)
+                for await (let pattern of intent['patterns']) {
+                    pattern = pattern.replace(/[^\w\s]|_/g, " "); // SPECIAL CHARACTERS REMOVAL
+                    pattern = pattern.toLowerCase().trim(); // CASE FOLDING
+                    pattern = stopword_kalimat(pattern); // STOPWORDS REMOVAL
+                    const wordList = pattern.split(" "); // TOKENIZING
+                    words.push(...wordList);
+                    documents.push([wordList, intent['tag']]);
+                    if (!classes.includes(intent['tag'])) {
+                        classes.push(intent['tag']);
+                    }
+                }
+            }
+
+            words = await [...new Set(words)];
+            classes = await [...new Set(classes)];
+
+            let dataset = [];
+            const output_empty = await Array(classes.length).fill(0);
+
+            for await (let document of documents) {
+                let bag = [];
+                const word_patterns = document[0];
+                for await (let word of words) {
+                    bag.push(word_patterns.includes(word) ? 1 : 0);
+                }
+                let output_row = [...output_empty];
+                output_row[classes.indexOf(document[1])] = 1;
+                dataset.push([bag, output_row]);
+            }
+
+            const shuffledDataset = await dataset
+                .map(value => ({ value, sort: Math.random() }))
+                .sort((a, b) => a.sort - b.sort)
+                .map(({ value }) => value);
+
+            const X = await shuffledDataset.map(data => data[0]);
+            const y = await shuffledDataset.map(data => data[1]);
+
+            const X_train = await tf.tensor2d(X.slice(0, (80/100*X.length)));
+            const y_train = await tf.tensor2d(y.slice(0, (80/100*y.length)));
+            const X_val = await tf.tensor2d(X.slice((80/100*X.length), X.length));
+            const y_val = await tf.tensor2d(y.slice((80/100*y.length), X.length));
+
+            const model = tf.sequential();
+            await model.add(tf.layers.dense({ units: 32, inputShape: [X_train.shape[1],], activation: 'relu' }));
+            await model.add(tf.layers.dense({ units: y_train.shape[1], activation: 'softmax' }));
+    
+            const optimizer = tf.train.adam();
+            await model.compile({ optimizer: optimizer, loss: 'categoricalCrossentropy', metrics: ['accuracy'] });
+    
+            const history = await model.fit(X_train, y_train, {
+                epochs: 100,
+                batchSize: 5,
+                validationData: [X_val, y_val],
+                verbose: 1,
+                callbacks: {
+                    onEpochEnd: async (epoch, logs) => {
+                        console.log("Epoch: " + epoch + " Loss: " + logs.loss + " Accuracy: " + logs.acc);
+                    }
+                  }
+            });
+            console.log(history);
+        }
+        train();
+
+        model.save('file://./chatbot_model');
+
+        console.log('done');
+    </script>
+</body>
+</html>

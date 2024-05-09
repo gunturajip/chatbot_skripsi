@@ -35,7 +35,7 @@
                 "Hei, boleh saya meminta sedikit penjelasan ?"
             ],
             "responses": [
-                "Hai, ada yang bisa kami bantu?"
+                "Hai, maaf, bisa dijelaskan lebih detail pertanyaan kamu?"
             ]
         },
         {
@@ -491,7 +491,7 @@
                 "membuat resume kerja efektif ?"
             ],
             "responses": [
-                "Disarankan membuat resume berbasis ATS (Applicant Tracking System), tidak memiliki isi terlalu panjang dalam tiap section pada resume, serta menggunakan Bahasa Inggris formal. Adapun beberapa section pada resume, yakni: work experience (pengalaman kerja atau kegiatan kampus), education and certifications (pendidikan dan sertifikasi yang dimiliki), technologies and skills (teknologi dan skill yang dikuasai), projects and achievements (proyek dan pencapaian terbaru). Ada 8 hal yang tidak boleh dilakukan ketika menulis resume, yakni: Terlalu men-generalisir skill yang dimiliki dan membuat poin - poin yang tidak jelas, Memasukkan pertanyaan obyektif yang bersifat umum, Menggunakan template resume yang sulit untuk dimodifikasi di waktu mendatang, Memiliki lebih dari 2 halaman resume, Membohongi perusahaan tentang IPK kuliah, skill, dan kemampuan yang dimiliki, Memasukkan dokumen pendukung pengalaman kerja di dalam resume, Memasukkan rutinitas kerja yang tidak terkait dengan posisi pekerjaan, Meninggalkan ruang tanpa tulisan di bagian bawah resume. Lebih detail dapat mengunduh template resume pada link berikut: https://docs.google.com/document/d/1sK29U35wGsc9ioGdu_M4NGvpXd4nWLB_9KPS6r7Lugc"
+                "Disarankan membuat resume berbasis ATS (Applicant Tracking System), tidak memiliki isi terlalu panjang dalam tiap section pada resume, serta menggunakan Bahasa Inggris formal. Adapun beberapa section pada resume, yakni: work experience (pengalaman kerja atau kegiatan kampus), education and certifications (pendidikan dan sertifikasi yang dimiliki), technologies and skills (teknologi dan skill yang dikuasai), projects and achievements (proyek dan pencapaian terbaru). Ada 8 hal yang tidak boleh dilakukan ketika menulis resume, yakni: Terlalu men-generalisir skill yang dimiliki dan membuat poin - poin yang tidak jelas, Memasukkan pertanyaan obyektif yang bersifat umum, Menggunakan template resume yang sulit untuk dimodifikasi di waktu mendatang, Memiliki lebih dari 2 halaman resume, Membohongi perusahaan tentang IPK kuliah, skill, dan kemampuan yang dimiliki, Memasukkan dokumen pendukung pengalaman kerja di dalam resume, Memasukkan rutinitas kerja yang tidak terkait dengan posisi pekerjaan, Meninggalkan ruang tanpa tulisan di bagian bawah resume. Lebih detail dapat mengunduh template resume pada <a href=\"https://docs.google.com/document/d/1sK29U35wGsc9ioGdu_M4NGvpXd4nWLB_9KPS6r7Lugc\">link berikut.</a>"
             ]
         },
         {
@@ -529,7 +529,7 @@
                 "membuat CV atau curriculum vitae kerja efektif ?"
             ],
             "responses": [
-                "Menurut UMBC Career Guide 2023-2024, CV atau Curriculum Vitae tidak terlalu diperlukan oleh para fresh-graduates dalam meniti karir ataupun melakukan penilitian ilmiah. CV lebih cocok digunakan oleh orang dengan pendidikan S2 ke atas yang ingin melakukan penelitian ilmiah ataupun melamar untuk posisi sebagai dosen. Ada banyak template CV yang bagus dan efektif, salah satunya dapat dicari pada website Academia.edu hanya dengan membuat akun gratis. CV atau Curriculum Vitae yang baik untuk para fresh-graduates maksimal memiliki 3 halaman. Perlu dipastikan juga bahwa isi dari CV terfokus pada posisi atau karir yang diinginkan. Untuk posisi - posisi karir yang bersifat akademis, biasanya reviewer CV hanya meluangkan waktu sekitar 20 - 30 detik pertama. Adapun beberapa section yang perlu ada pada CV, yakni: contact information (berisi nama, kota, provinsi, dan email), education (jurusan, nama institusi pendidikan, dan tanggal lulus pendidikan), professional affiliations (berisi deskripsi pengalaman di bidang kepemimpinan, organisasi, magang, ataupun kerja), research and teaching interesets (berisi ringkasan penelitian ataupun pengalaman mengajar), skills (berisi daftar kemampuan yang dikuasai), publications (berisi publikasi yang dimiliki), honors & awards (berisi daftar penghargaan dan kejuaraan yang dimiliki), conference presentations (berisi daftar pengalaman terkait seminar beserta tanggal seminar). Lebih detail dapat mengunduh template CV atau curriculum vitae pada link berikut: https://docs.google.com/document/d/1xZrXcB5BJWX6PClnVQ5tG6Cjwd1j2hEuhGSyclAaBaI"
+                "Menurut UMBC Career Guide 2023-2024, CV atau Curriculum Vitae tidak terlalu diperlukan oleh para fresh-graduates dalam meniti karir ataupun melakukan penilitian ilmiah. CV lebih cocok digunakan oleh orang dengan pendidikan S2 ke atas yang ingin melakukan penelitian ilmiah ataupun melamar untuk posisi sebagai dosen. Ada banyak template CV yang bagus dan efektif, salah satunya dapat dicari pada website Academia.edu hanya dengan membuat akun gratis. CV atau Curriculum Vitae yang baik untuk para fresh-graduates maksimal memiliki 3 halaman. Perlu dipastikan juga bahwa isi dari CV terfokus pada posisi atau karir yang diinginkan. Untuk posisi - posisi karir yang bersifat akademis, biasanya reviewer CV hanya meluangkan waktu sekitar 20 - 30 detik pertama. Adapun beberapa section yang perlu ada pada CV, yakni: contact information (berisi nama, kota, provinsi, dan email), education (jurusan, nama institusi pendidikan, dan tanggal lulus pendidikan), professional affiliations (berisi deskripsi pengalaman di bidang kepemimpinan, organisasi, magang, ataupun kerja), research and teaching interesets (berisi ringkasan penelitian ataupun pengalaman mengajar), skills (berisi daftar kemampuan yang dikuasai), publications (berisi publikasi yang dimiliki), honors & awards (berisi daftar penghargaan dan kejuaraan yang dimiliki), conference presentations (berisi daftar pengalaman terkait seminar beserta tanggal seminar). Lebih detail dapat mengunduh template CV atau curriculum vitae pada <a href=\"https://docs.google.com/document/d/1xZrXcB5BJWX6PClnVQ5tG6Cjwd1j2hEuhGSyclAaBaI\">link berikut.</a>"
             ]
         },
         {
@@ -567,7 +567,7 @@
                 "membuat cover letter atau surat lamaran kerja efektif ?"
             ],
             "responses": [
-                "Menurut UMBC Career Guide 2023-2024, ada 10 tips untuk membuat cover letter atau jaringan karir yang dimiliki yang bagus, yakni: samakan konteks pengalaman kerjamu dengan resume yang kamu punya dan coba untuk jelaskan hal - hal menarik terkait bagi perusahaan terkait pengalaman kerja tersebut, buat isi jaringan karir yang dimiliki sekitar 3/4 ukuran halaman penuh, sebutkan dengan jelas posisi yang kamu inginkan, lakukan riset dan tunjukkan pemahamanmu akan perusahaan yang kamu lamar sesuai hasil risetmu, jelaskan secara humanis alasan kamu memilih posisi tersebut kepada perusahaan, jelaskan bagaimana cara kamu berkontribusi kepada perusahaan, fokus pada keunggulan yang kamu miliki dan bukan kelemahanmu, kurangi penggunaan kata \"saya\", nyatakan bagaimana dan kapan kamu ingin mendapat respon atas lamaranmu dari perusahaan, baca ulang jaringan karir yang dimiliki beberapa kali untuk memperbaiki kata - kata yang kurang dapat jelas terbaca oleh perusahaan saat proses review surat lamaranmu. salah satu cara ampuh untuk meningkatkan kualitas surat lamaranmu ialah dengan melampirkan hubunganmu dengan rekan akademisi ataupun profesional yang pernah bekerja bersamamu. Pastikan rekan - rekan yang kamu pilih berhubungan dekat dan mengenalmu, serta memilki posisi yang jelas secara akademisi ataupun profesional. Jangan lupa untuk meminta izin akan ketersediaan rekan - rekanmu dalam membantu memberikan testimoni selama bekerja bersamamu secara positif. Lebih detail dapat mengunduh template cover letter atau surat lamaran pada link berikut: https://cdn.uconnectlabs.com/wp-content/uploads/sites/123/2021/06/sample-cover-letters-3.pdf"
+                "Menurut UMBC Career Guide 2023-2024, ada 10 tips untuk membuat cover letter atau jaringan karir yang dimiliki yang bagus, yakni: samakan konteks pengalaman kerjamu dengan resume yang kamu punya dan coba untuk jelaskan hal - hal menarik terkait bagi perusahaan terkait pengalaman kerja tersebut, buat isi jaringan karir yang dimiliki sekitar 3/4 ukuran halaman penuh, sebutkan dengan jelas posisi yang kamu inginkan, lakukan riset dan tunjukkan pemahamanmu akan perusahaan yang kamu lamar sesuai hasil risetmu, jelaskan secara humanis alasan kamu memilih posisi tersebut kepada perusahaan, jelaskan bagaimana cara kamu berkontribusi kepada perusahaan, fokus pada keunggulan yang kamu miliki dan bukan kelemahanmu, kurangi penggunaan kata \"saya\", nyatakan bagaimana dan kapan kamu ingin mendapat respon atas lamaranmu dari perusahaan, baca ulang jaringan karir yang dimiliki beberapa kali untuk memperbaiki kata - kata yang kurang dapat jelas terbaca oleh perusahaan saat proses review surat lamaranmu. salah satu cara ampuh untuk meningkatkan kualitas surat lamaranmu ialah dengan melampirkan hubunganmu dengan rekan akademisi ataupun profesional yang pernah bekerja bersamamu. Pastikan rekan - rekan yang kamu pilih berhubungan dekat dan mengenalmu, serta memilki posisi yang jelas secara akademisi ataupun profesional. Jangan lupa untuk meminta izin akan ketersediaan rekan - rekanmu dalam membantu memberikan testimoni selama bekerja bersamamu secara positif. Lebih detail dapat mengunduh template cover letter atau surat lamaran pada <a href=\"https://cdn.uconnectlabs.com/wp-content/uploads/sites/123/2021/06/sample-cover-letters-3.pdf\">link berikut.</a>"
             ]
         },
         {
@@ -649,36 +649,36 @@
         {
             "tag": "overview_personalbranding_karir",
             "patterns": [
-                "bagaimana menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja yang baik dan benar ?",
-                "bagaimana cara untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "bagaimana cara menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "apa ada cara menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja yang bagus ?",
-                "Apa langkah-langkah untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Bagaimana menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Apakah terdapat strategi khusus menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Apa saja elemen yang harus ada untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Bagaimana cara menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Apakah terdapat persyaratan untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Bagaimana mengatur struktur persyaratan untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Apa yang perlu diperhatikan untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Bagaimana menyesuaikan persyaratan untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Apa saja hal untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Bagaimana cara menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Apakah ada tips khusus menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Bagaimana cara menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Apakah ada platform untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Bagaimana menyusun persyaratan untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "Bagaimana persiapan untuk menambah atau membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "personalbranding atau personal branding atau kredibilitas kerja efektif ?",
-                "personalbranding atau personal branding atau kredibilitas kerja bagus ?",
-                "personalbranding atau personal branding atau kredibilitas kerja baik ?",
-                "personalbranding atau personal branding atau kredibilitas kerja ?",
-                "personalbranding atau personal branding atau kredibilitas kerja profesional ?",
-                "personalbranding atau personal branding atau kredibilitas kerja benar ?",
-                "personalbranding atau personal branding atau kredibilitas kerja agar cepat diterima kerja ?",
-                "rekomendasi personalbranding atau personal branding atau kredibilitas kerja ?",
-                "cara membangun personalbranding atau personal branding atau kredibilitas kerja ?",
-                "membangun personalbranding atau personal branding atau kredibilitas kerja efektif ?"
+                "bagaimana menambah atau membangun personal branding atau kredibilitas kerja yang baik dan benar ?",
+                "bagaimana cara untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "bagaimana cara menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "apa ada cara menambah atau membangun personal branding atau kredibilitas kerja yang bagus ?",
+                "Apa langkah-langkah untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Bagaimana menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Apakah terdapat strategi khusus menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Apa saja elemen yang harus ada untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Bagaimana cara menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Apakah terdapat persyaratan untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Bagaimana mengatur struktur persyaratan untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Apa yang perlu diperhatikan untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Bagaimana menyesuaikan persyaratan untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Apa saja hal untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Bagaimana cara menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Apakah ada tips khusus menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Bagaimana cara menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Apakah ada platform untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Bagaimana menyusun persyaratan untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "Bagaimana persiapan untuk menambah atau membangun personal branding atau kredibilitas kerja ?",
+                "personal branding atau kredibilitas kerja efektif ?",
+                "personal branding atau kredibilitas kerja bagus ?",
+                "personal branding atau kredibilitas kerja baik ?",
+                "personal branding atau kredibilitas kerja ?",
+                "personal branding atau kredibilitas kerja profesional ?",
+                "personal branding atau kredibilitas kerja benar ?",
+                "personal branding atau kredibilitas kerja agar cepat diterima kerja ?",
+                "rekomendasi personal branding atau kredibilitas kerja ?",
+                "cara membangun personal branding atau kredibilitas kerja ?",
+                "membangun personal branding atau kredibilitas kerja efektif ?"
             ],
             "responses": [
                 "Menurut UMBC Career Guide 2023-2024, personal branding atau pengembangan reputasi atau kredibilitas karir sangat penting dalam pengembangan karir kamu. Personal branding akan membuat kamu lebih percaya diri ketika menambah networking atau jaringan kenalan karir dan melamar kerja. Ada persamaan yang cukup menarik berkenaan dengan personal branding ini, yakni: Authentic + Consistent = Trustworthy. Maksudnya, authentic atau asli dan orisinalitas reputasi dan pengalaman karir yang digabung dengan consistent atau secara konsisten menyatakan reputasi dan pengalaman karir yang sama di berbagai kesempatan atau media sosial yang kamu miliki akan membuat perusahaan lebih mudah percaya denganmu dan meningkatkan persentase kamu untuk mendapat pekerjaan di bidang yang kamu inginkan. Ada beberapa tips guna meningkatkan kualitas personal branding atau reputasi atau kredibilitas karir kamu, yakni: membuat video promosi tentang kemampuanmu selama 30 detik yang berisi perkenalan singkat tentang identitasmu, penyebutan beberapa keunggulan dan pencapaian kamu telah kamu raih, cara kamu memberikan kontribusi positif kepada perusahaan, dan kemas semua hal tersebut dalam bentuk yang jelas dan simpel agar mudah dimengerti oleh audiens. Mulailah melengkapi profil akun LinkedIn-mu dengan mengunggah foto yang jelas dan profesional, isi headline LinkedIn yang unik dan memiliki nilai tinggi sesuai kemampuan atau pengalaman yang kamu punya di bidang tertentu, tambahkan rangkuman riwayat karirmu dengan mengutamakan pada beberapa kemampuan serta pencapaian terbaik yang telah kamu raih, minta rekomendasi performa karir dari rekan kerja, baca ulang data yang telah kamu isi apabila terdapat kesalahan penulisan atau ketidaksesuaian makna sesuai kemampuan atau pengalaman yang kamu miliki."
