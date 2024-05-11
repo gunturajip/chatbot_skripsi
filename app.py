@@ -46,8 +46,8 @@ classes = sorted(set(classes))
 model = load_model('chatbot_model_1.h5')
 
 def clean_up_sentence(sentence):
-    sentence = sentence.translate(str.maketrans("", "", string.punctuation)) # SPECIAL CHARACTERS REMOVAL
-    sentence = sentence.lower() # CASE FOLDING
+    sentence = sentence.translate(str.maketrans({_: ' ' for _ in string.punctuation})) # SPECIAL CHARACTERS REMOVAL
+    sentence = sentence.lower().strip() # CASE FOLDING
     # sentence = stemmer.stem_kalimat(sentence) # STEMMING
     sentence = stopword_kalimat(sentence) # STOPWORDS REMOVAL
     sentence_words = nltk.word_tokenize(sentence) # TOKENIZING

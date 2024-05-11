@@ -24,8 +24,8 @@ def stopword_kalimat(str):
 
 for intent in intents['intents']: # PARSING
     for pattern in intent['patterns']:
-        pattern = pattern.translate(str.maketrans("", "", string.punctuation)) # SPECIAL CHARACTERS REMOVAL
-        pattern = pattern.lower() # CASE FOLDING
+        pattern = pattern.translate(str.maketrans({_: ' ' for _ in string.punctuation})) # SPECIAL CHARACTERS REMOVAL
+        pattern = pattern.lower().strip() # CASE FOLDING
         # pattern = stemmer.stem_kalimat(pattern) # STEMMING
         pattern = stopword_kalimat(pattern) # STOPWORDS REMOVAL
         word_list = nltk.word_tokenize(pattern) # TOKENIZING
@@ -39,8 +39,8 @@ classes = sorted(set(classes))
 model = load_model('chatbot_model_1.h5')
 
 def clean_up_sentence(sentence):
-    sentence = sentence.translate(str.maketrans("", "", string.punctuation)) # SPECIAL CHARACTERS REMOVAL
-    sentence = sentence.lower() # CASE FOLDING
+    sentence = sentence.translate(str.maketrans({_: ' ' for _ in string.punctuation})) # SPECIAL CHARACTERS REMOVAL
+    sentence = sentence.lower().strip() # CASE FOLDING
     # sentence = stemmer.stem_kalimat(sentence) # STEMMING
     sentence = stopword_kalimat(sentence) # STOPWORDS REMOVAL
     sentence_words = nltk.word_tokenize(sentence) # TOKENIZING
