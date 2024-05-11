@@ -16,8 +16,8 @@ def stopword_kalimat(str):
     return result[:-1]
 
 # print(stemmer.stem_kalimat("apakah terdapat strategi khusus memulai atau mendapat atau mencari atau mengikuti internship atau magang kerja "))
-print(stopword_kalimat("apakah dapat strategi khusus mulai atau dapat atau cari atau ikut internship atau magang kerja "))
-print(nltk.word_tokenize("strategi khusus cari internship magang kerja"))
+print(stopword_kalimat("apakah terdapat strategi khusus memulai atau mendapat atau mencari atau mengikuti internship atau magang kerja"))
+print(nltk.word_tokenize("strategi khusus mencari mengikuti internship magang kerja"))
 
 intents = json.loads(open('intents.json', 'r', encoding='utf-8').read())
 is_duplicate = []
