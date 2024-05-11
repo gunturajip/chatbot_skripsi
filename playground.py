@@ -21,14 +21,18 @@ print(nltk.word_tokenize("strategi khusus cari internship magang kerja"))
 
 intents = json.loads(open('intents.json', 'r', encoding='utf-8').read())
 is_duplicate = []
+iteration = 0
 for intent in intents['intents']:
+    iteration += 1
     count = 0
     for pattern in intent['patterns']:
         count += 1
         if pattern in is_duplicate:
             print(pattern)
         is_duplicate += [pattern]
-    print("Count: %d", count)
+    print("Iteration: ", iteration)
+    print("Tag: ", intent['tag'])
+    print("Count: ", count)
 print("BEFORE IS_DUPLICATE IS SET")
 print(len(is_duplicate))
 print("AFTER IS_DUPLICATE IS SET")
