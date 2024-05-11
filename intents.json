@@ -776,7 +776,7 @@
                 "Bagaimana cara terbaik menggunakan ChatGPT atau Chat GPT untuk cari kerja ?",
                 "Apa saja risiko ketika menggunakan ChatGPT atau Chat GPT dalam pengembangan karir ?",
                 "Bagaimana ChatGPT atau Chat GPT dapat membantu jaringan profesional ?",
-                "Apa manfaat menggunakan ChatGPT atau Chat GPT dalam wawancara kerja ?",
+                "Apa manfaat menggunakan ChatGPT atau Chat GPT dalam mencari kerja ?",
                 "Bagaimana ChatGPT atau Chat GPT dapat mempercepat proses pencarian pekerjaan ?",
                 "Apakah ada keterbatasan ChatGPT atau Chat GPT untuk eksplorasi karir ?",
                 "Bagaimana etika interaksi ChatGPT atau Chat GPT dalam mencari kerja ?",
@@ -785,7 +785,7 @@
                 "Apakah ada risiko saat menggunakan ChatGPT atau Chat GPT ?",
                 "ChatGPT atau Chat GPT dapat membantu mencari pekerjaan ?",
                 "ChatGPT atau Chat GPT dalam pengembangan karir ?",
-                "ChatGPT atau Chat GPT dalam pengembangan karir ?",
+                "ChatGPT atau Chat GPT dalam mencari pekerjaan ?",
                 "ChatGPT atau Chat GPT dalam pencarian pekerjaan ?",
                 "ChatGPT atau Chat GPT untuk mengidentifikasi peluang karir ?",
                 "ChatGPT atau Chat GPT dalam konteks pencarian pekerjaan ?",
@@ -875,7 +875,7 @@
             ]
         },
         {
-            "tag": "overview_portfolio_karir",
+            "tag": "overview_portofolio_karir",
             "patterns": [
                 "apa arti portofolio dalam mencari kerja ?",
                 "apa kegunaan portofolio dalam mengembangkan karir ?",
@@ -913,59 +913,244 @@
             ]
         },
         {
-            "tag": "",
-            "patterns": [],
-            "responses": []
+            "tag": "overview_linkedin_karir",
+            "patterns": [
+                "apa itu Linkedin untuk pengembangan karir ?",
+                "apa kegunaan Linkedin buat pencarian kerja ?",
+                "apa manfaat dari Linkedin buat karir ?",
+                "apa kegunaan Linkedin buat karir mahasiswa ?",
+                "apa keuntungan Linkedin terhadap eksplorasi karir ?",
+                "Linkedin buat kerja ?",
+                "apa bisa cari kerja lewat Linkedin ?",
+                "emang bisa kerja dibantu Linkedin ?",
+                "Bagaimana Linkedin bisa membantu dalam eksplorasi karir ?",
+                "Apa saja keunggulan yang dimiliki Linkedin dalam mencari kera ?",
+                "Bagaimana cara terbaik menggunakan Linkedin untuk cari kerja ?",
+                "Apa saja langkah ketika menggunakan Linkedin dalam pengembangan karir ?",
+                "Bagaimana Linkedin dapat membantu jaringan profesional ?",
+                "Apa manfaat menggunakan Linkedin dalam mencari kerja ?",
+                "Bagaimana Linkedin dapat mempercepat proses pencarian pekerjaan ?",
+                "Apakah ada hal penting di Linkedin untuk eksplorasi karir ?",
+                "Bagaimana menggunakan Linkedin dalam mencari kerja ?",
+                "Apakah Linkedin dapat memberikan saran karir ?",
+                "Bagaimana cara Linkedin membantu mencari kerja ?",
+                "Apakah ada rekomendasi saat menggunakan Linkedin ?",
+                "Linkedin dapat membantu mencari pekerjaan ?",
+                "Linkedin dalam pengembangan karir ?",
+                "Linkedin dalam pencarian kerja ?",
+                "Linkedin dalam pencarian pekerjaan ?",
+                "Linkedin untuk mengidentifikasi peluang karir ?",
+                "Linkedin dalam konteks pencarian pekerjaan ?",
+                "Linkedin dapat membantu mencari kerja ?",
+                "Linkedin dapat memberikan wawasan karir ?",
+                "Linkedin untuk dapat kerja ?",
+                "Linkedin untuk membangun skill kerja ?"
+            ],
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Linkedin dapat kamu gunakan sebagai kehadiran profesional kamu di internet. Ada beberapa bagian dalam halaman Linkedinmu, yakni: Photo, Connections, Headline, Skills, About dan Public Profile URL. Untuk bagian Photo, pilihlah foto profilmu seorang diri dan usahakan untuk bersikap profesional. Bagian Headline terletak tepat dibawah namamu dimana kamu bisa membuat beberapa kata kunci yang relevan dengan skill maupun posisi pekerjaan yang kamu inginkan atau tekuni, sebagai contoh: UMBC Technology Student/Creative Problem Solver. Bagian Connections terletak dibawah bagian Headline yang menunjukkan jumlah orang yang berhubungan atau connect denganmu, mirip seperti Follow dan Follow Back di beberapa platform media sosial lain seperti Instagram. Bagian Skills bisa kamu dapatkan dengan memilih untuk menunjukkan bagian tersebut melalui tombol \"Tambah bagian profil\" atau \"Add profile section\" dimana kamu bisa memilih beberapa skill yang relevan dengan bidang pekerjaan yang kamu tekuni. Bagian About bisa kamu isi dengan keunggulan serta pengalaman kerjamu yang relevan dengan posisi pekerjaan yang kamu inginkan pada 3 baris pertama mengingat 3 baris pertama dapat dengan mudah dilihat oleh orang lain. Bagian Public Profile URL bisa kamu ubah sesuai dengan preferensi yang kamu inginkan untuk memudahkanmu dalam membagikan halaman Linkedin milikmu dan lebih mudah dihafal oleh orang lain. Kamu juga bisa mulai membuka halaman Linkedin dari UPN \"Veteran\" Jawa Timur dan mencai berbagai alumni yang juga berkuliah di kampus tersebut. Cobalah mulai lakukan Follow atau Connect dengan beberapa alumni yang memiliki preferensi skill pekerjaan yang sesuai dengan dirimu. Ketika kamu berhasil berhubungan dengan beberapa alumni tersebut, kamu akan secara otomatis mengetahui berbagai kegiatan di Linkedin yang mereka lakukan, seperti membagikan pengalaman kerja mereka, postingan kerja atau skill yang mereka sukai hingga lowongan kerja yang mereka bagikan dari perusahaan tertentu."
+            ]
         },
         {
-            "tag": "",
-            "patterns": [],
-            "responses": []
+            "tag": "overview_redflag_karir",
+            "patterns": [
+                "Apa itu red flag ?",
+                "Apa yang dimaksud red flag dalam dunia kerja ?",
+                "Tips menghindari lowongan kerja red flag ?",
+                "Rekomendasi terhindar dari pekerjaan yang red flag ?",
+                "Bagaimana ciri - ciri dari lowongan pekerjaan yang red flag ?",
+                "Bagaimana cara mengetahui lowongan kerja yang red flag ?",
+                "Bagaimana mengidentifikasi lowongan kerja yang red flag ?",
+                "Apa tanda red flag yang paling umum dalam postingan pekerjaan ?",
+                "Bagaimana cara mengenali red flag dalam deskripsi pekerjaan ?",
+                "Apa yang menjadikan lowongan kerja red flag ?",
+                "Apakah pernah mengalami situasi mendapat pekerjaan red flag ?",
+                "Apa saja tanda-tanda pekerjaan red flag ?",
+                "Apakah ada red flag yang bisa langsung dikenali ?",
+                "Apakah ada tawaran pekerjaan yang red flag ?",
+                "Bagaimana menanggapi tanda red flag dalam sebuah postingan pekerjaan ?",
+                "Apakah mengantisipasi tawaran kerja bersifat red flag ?",
+                "Apa yang membuat lowongan kerja red flag ?",
+                "Bagaimana cara menghindari tawaran pekerjaan dengan red flag ?",
+                "Apakah ada cara untuk mengetahui apakah red flag ?",
+                "Apa saja kriteria tawaran kerja yang red flag ?",
+                "red flag bahaya ?",
+                "Red Flag dalam dunia kerja ?",
+                "Red Flag menghambat karir ?",
+                "Red Flag harus dihindari ?",
+                "bagaimana cara terlepas dari Red Flag ?",
+                "identifikasi red flag ?",
+                "Red Flag dalam konteks pekerjaan ?",
+                "menghindari Red Flag saat mencari kerja ?",
+                "Red Flag dapat wawasan karir ?",
+                "Red Flag saat melamar kerja ?"
+            ],
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Red Flag merupakan kondisi dimana sebuah perusahaan yang membuka lowongan kerja meminta biaya pendaftaran ataupun seleksi kepada kamu. Biasanya pemosting lowongan kerja tersebut adalah scammer yang yang berpura-pura menjadi seorang karyawan atau perekrut di perusahaan terkait. Mereka menggunakan iklan lowongan kerja untuk mengelabuhi kamu yang sedang mencari pekerjaan. Mereka biasanya akan bersikap baik dan ramah di awal pembicaraan, namun akan meminta kamu melakukan beberapa hal yang tidak seharusnya dilakukan dan aneh. Beberapa ciri lowongan kerja yang bisa dikatakan Red Flag, diantaranya: menanyakan hal seputar umur, status kewarganegaraan, status pernikahan, kondisi fisik, keaktifan politik, keagamaan, ataupun etnis, asal suku atau ras, agama, hingga rencana untuk memiliki keturunan. Mereka juga seringkali meminta kamu untuk menyediakan kartu kredit, nomor akun bank kamu, atau dokumen finansialmu yang lain meski belum direkrut. Alamat kontak mereka juga seringkali tidak sama dengan alamat kontak dari perusahaan yang dikaitkan, seperti: nama perusahaan \"Omega Inc.\" namun alamat email mereka memiliki domain Yahoo. Mereka juga biasanya menggunakan alamt email phising yang berpotensi mencuri data pribadi kamu melalui device yang kamu gunakan untuk membuka email tersebut. Deskripsi pekerjaan memiliki banyak kata-kata informal ataupun kata-kata yang salah pengejaannya. Mereka biasanya meminta kamu untuk membayar sejumlah uang yang nominalnya cukup besar dengan imbal balik kamu akan diterima kerja. Red Flag juga bisa datang dari lowongan kerja yang tidak pernah kamu lamar, namun tiba-tiba muncul di email atau notifikasi media sosial kamu. Deskripsi pekerjaan tidak jelas dan kecepatan mereka dalam membaca lamaran kerja yang kamu kirim, baik berupa CV atau curriculum vitae, resume, ataupun cover letter hanya jeda beberapa menit atau jam."
+            ]
         },
         {
-            "tag": "",
-            "patterns": [],
-            "responses": []
+            "tag": "overview_joboffering_karir",
+            "patterns": [
+                "Bagaimana menyikapi job offering atau tawaran kerja ?",
+                "Tips ketika mendapat job offering atau tawaran kerja ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja sudah sesuai ?",
+                "Apa yang membuat proses menerima job offering atau tawaran kerja menjadi begitu menakutkan ?",
+                "Bagaimana langkah yang tepat dalam menerima sebuah job offering atau tawaran kerja ?",
+                "Apa yang perlu dievaluasi dalam sebuah job offering atau tawaran kerja sebelum menerimanya ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja itu sesuai ?",
+                "Apakah ada cara untuk mengevaluasi job offering atau tawaran kerja ?",
+                "Bagaimana cara menentukan apakah job offering atau tawaran kerja tersebut sesuai ?",
+                "Apa yang harus dilakukan jika merasa job offering atau tawaran kerja tidak memadai ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja sesuai ?",
+                "Apa yang perlu dipertimbangkan sebelum menerima job offering atau tawaran kerja ?",
+                "Bagaimana cara menilai job offering atau tawaran kerja ?",
+                "Apa yang harus dilakukan ketika mendapat job offering atau tawaran kerja ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja itu sesuai ?",
+                "Apakah yang harus dipertimbangkan ketika mengevaluasi job offering atau tawaran kerja ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja itu sesuai ?",
+                "Apakah ada pertimbangan dalam job offering atau tawaran kerja ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja sesuai ?",
+                "Apakah ada cara untuk mengetahui apakah job offering atau tawaran kerja sesuai ?",
+                "Job Offering atau tawaran kerja yang baik ?",
+                "Job Offering atau tawaran kerja yang sesuai ?",
+                "Job Offering atau tawaran kerja yang efektif ?",
+                "Job Offering atau tawaran kerja menakutkan ?",
+                "Job Offering atau tawaran kerja setelah lolos seleksi ?",
+                "Job Offering atau tawaran kerja dalam pengembangan karir ?",
+                "Job Offering atau tawaran kerja perlu dievaluasi ?",
+                "Job Offering atau tawaran kerja dalam pencarian pekerjaan ?",
+                "Job Offering atau tawaran kerja dalam peluang karir ?",
+                "Job Offering atau tawaran kerja dalam konteks pencarian pekerjaan ?",
+                "Job Offering atau tawaran kerja setelah mendapat kerja ?",
+                "Job Offering atau tawaran kerja dalam wawasan karir ?",
+                "Job Offering atau tawaran kerja setelah lolos seleksi ?",
+                "Job Offering atau tawaran kerja untuk membangun skill kerja ?"
+            ],
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Job Offering atau tawaran kerja biasanya dilakukan ketika kamu telah lolos tahap Interview dan seleksi dari lowongan kerja yang kamu lamar. Sebelum kamu menerima tawaran kerja, kamu perlu mempertimbangkan beberapa hal yang ditawarkan dari pekerjaan tersebut, seperti: potensi kemajuan karir, paket keuntungan kerja (asuransi kesehatan, pensiun), budaya dan etika perusahaan, jam kerja flesibel atau tidak, mengikuti tren industri atau tidak, kesesuaian pekerjaan, keamanan kerja, status pekerjaan (full-time atau kontraktor), lokasi kerja, nilai-nilai kerja, work-life balance, pengembangan karir profesional, nominal gaji, pelatihan kerja, travel, bantuan biaya pendidikan. Kamu juga perlu mengevaluasi tawaran kerja dengan prinsip 3T (Tone: kamu perlu apresiasi dan berpikir positif atas tawaran kerja yang kamu dapatkan, Timeliness: antusias dan tepat waktu dalam melengkapi berkas ataupun dokumen kerja setelah mendapat tawaran kerja, Tactics: selalu berkomunikasi dengan perekrut selama proses melengkapi berkas dokumen berjalan dan tetap sopan dalam bertanya sesuatu yang tidak kamu mengerti terkait tahapan tertentu dalam proses tersebut). Kamu juga perlu memberikan respon atau umpan balik yang menyatakan bahwa kamu menerima tawaran kerja bila kamu memang telah menerima segala fasilitas yang ditawarkan sebelumnya. Setelah kamu menerima tawaran kerja, jangan membatalkannya karena kamu akan dinilai tidak profesional dan tidak beretika dalam proses pencarian kerja, serta itu akan membuat personal branding yang kamu lakukan sebelumnya dicap buruk oleh perusahaan yang memberikan tawaran kerja kepadamu."
+            ]
         },
         {
-            "tag": "",
-            "patterns": [],
-            "responses": []
+            "tag": "overview_gaji_karir",
+            "patterns": [
+                "apa arti negosiasi gaji dalam mencari kerja ?",
+                "apa kegunaan negosiasi gaji dalam mengembangkan karir ?",
+                "apa manfaat negosiasi gaji dalam pencarian kerja",
+                "Apa fungsi negosiasi gaji bagi pencari kerja ?",
+                "Apa manfaat menampilkan negosiasi gaji untuk mencari kerja ?",
+                "Mengapa penting bagi semua jenis mahasiswa untuk melakukan negosiasi gaji ?",
+                "Bagaimana negosiasi gaji dapat digunakan ketika mendapat penawaran kerja ?",
+                "Apa jenis keterampilan yang dapat ditampilkan dalam negosiasi gaji ?",
+                "Bagaimana cara mempersiapkan negosiasi gaji yang kuat ?",
+                "Mengapa negosiasi gaji penting ketika mendapat penawaran kerja ?",
+                "Apa manfaat melakukan negosiasi gaji dalam aplikasi pekerjaan ?",
+                "Bagaimana cara menyesuaikan negosiasi gaji dengan posisi pekerjaan yang diinginkan ?",
+                "Apa yang dapat ditampilkan dalam negosiasi gaji untuk menarik minat perekrut ?",
+                "Apa saja langkah negosiasi gaji untuk mencari kerja ?",
+                "Bagaimana cara menyesuaikan negosiasi gaji untuk berbagai jenis pekerjaan ?",
+                "Apa tahapan dalam negosiasi gaji ?",
+                "Bagaimana cara melakukan negosiasi gaji secara efektif ?",
+                "Bagaimana cara melakukan negosiasi gaji yang baik ?",
+                "Apa manfaat melakukan negosiasi gaji ketika mendapat penawaran pekerjaan ?",
+                "Ada tips untuk negosiasi gaji ?",
+                "negosiasi gaji efektif ?",
+                "negosiasi gaji bagus ?",
+                "negosiasi gaji baik ?",
+                "negosiasi gaji ?",
+                "negosiasi gaji profesional ?",
+                "negosiasi gaji benar ?",
+                "negosiasi gaji agar cepat diterima kerja ?",
+                "rekomendasi negosiasi gaji ?",
+                "cara melakukan negosiasi gaji ?",
+                "bagaimana negosiasi gaji efektif ?"
+            ],
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, negosiasi gaji setelah pada waktu proses interview kerja atau setelah mendapat tawaran kerja perlu dilakukan untuk menyelaraskan apa yang kamu berikan dan apa yang kamu dapatkan dari perusahaan. Lakukanlah beberapa riset terlebih dahulu sebelum melakukan negosiasi gaji dengan mengetahui rentang gaji secara umum di lokasi tempat kamu akan bekerja. Kamu bisa mendemonstrasikan pengetahuanmu setelah melakukan beberapa riset terkait rentang gaji, semisal: \"Riset yang saya lakukan menunjukkan bahwa karyawan magang di bidang Sistem Informasi menerima gaji antara 15 USD hingga 23 USD dengan rata-rata gaji 19 USD. Berdasarkan kualifikasi saya yang kuat, saya rasa gaji pada rentang 17 USD hingga 20 USD sesuai untuk saya.\". Kamu juga bisa menanyakan balik kepada perekrut tentang apa yang akan didapatkan oleh karyawan lain yang memiliki latar belakang, skill, dan kualifiksi sepertimu di posisi pekerjaan terkait. Bila pihak perekrut masih sulit dalam negosiasi gaji, tanyakan apakah ada aspek lain yang bisa dinegosiasikan, seperti: jatah liburan, atau opsi untuk bekerja secara remote maupun hybrid. Perlu diingat bahwa negosiasi gaji ini tidak boleh dilakukan sebelum kamu mendapat tawaran kerja yang jelas."
+            ]
         },
         {
-            "tag": "",
-            "patterns": [],
-            "responses": []
+            "tag": "overview_wfh_karir",
+            "patterns": [
+                "Bagaimana menyikapi wfh atau work from home atau kerja dari rumah ?",
+                "Tips ketika mendapat wfh atau work from home atau kerja dari rumah ?",
+                "Bagaimana cara mengetahui apakah wfh atau work from home atau kerja dari rumah sudah sesuai ?",
+                "Apa yang membuat proses menerima wfh atau work from home atau kerja dari rumah menjadi begitu menakutkan ?",
+                "Bagaimana langkah yang tepat dalam menerima sebuah wfh atau work from home atau kerja dari rumah ?",
+                "Apa yang perlu dievaluasi dalam sebuah wfh atau work from home atau kerja dari rumah sebelum menerimanya ?",
+                "Bagaimana cara mengetahui apakah wfh atau work from home atau kerja dari rumah itu sesuai ?",
+                "Apakah ada cara untuk mengevaluasi wfh atau work from home atau kerja dari rumah ?",
+                "Bagaimana cara menentukan apakah wfh atau work from home atau kerja dari rumah tersebut sesuai ?",
+                "Apa yang harus dilakukan jika merasa wfh atau work from home atau kerja dari rumah tidak memadai ?",
+                "Bagaimana cara mengetahui apakah wfh atau work from home atau kerja dari rumah sesuai ?",
+                "Apa yang perlu dipertimbangkan sebelum menerima wfh atau work from home atau kerja dari rumah ?",
+                "Bagaimana cara menilai wfh atau work from home atau kerja dari rumah ?",
+                "Apa yang harus dilakukan ketika mendapat wfh atau work from home atau kerja dari rumah ?",
+                "Bagaimana cara mengetahui apakah wfh atau work from home atau kerja dari rumah itu sesuai ?",
+                "Apakah yang harus dipertimbangkan ketika mengevaluasi wfh atau work from home atau kerja dari rumah ?",
+                "Bagaimana cara mengetahui apakah wfh atau work from home atau kerja dari rumah itu sesuai ?",
+                "Apakah ada pertimbangan dalam wfh atau work from home atau kerja dari rumah ?",
+                "Bagaimana cara mengetahui apakah wfh atau work from home atau kerja dari rumah sesuai ?",
+                "Apakah ada cara untuk mengetahui apakah wfh atau work from home atau kerja dari rumah sesuai ?",
+                "wfh atau work from home atau kerja dari rumah yang baik ?",
+                "wfh atau work from home atau kerja dari rumah yang sesuai ?",
+                "wfh atau work from home atau kerja dari rumah yang efektif ?",
+                "wfh atau work from home atau kerja dari rumah menakutkan ?",
+                "wfh atau work from home atau kerja dari rumah setelah lolos seleksi ?",
+                "wfh atau work from home atau kerja dari rumah dalam pengembangan karir ?",
+                "wfh atau work from home atau kerja dari rumah perlu dievaluasi ?",
+                "wfh atau work from home atau kerja dari rumah dalam pencarian pekerjaan ?",
+                "wfh atau work from home atau kerja dari rumah dalam peluang karir ?",
+                "wfh atau work from home atau kerja dari rumah dalam konteks pencarian pekerjaan ?",
+                "wfh atau work from home atau kerja dari rumah setelah mendapat kerja ?",
+                "wfh atau work from home atau kerja dari rumah dalam wawasan karir ?",
+                "wfh atau work from home atau kerja dari rumah setelah lolos seleksi ?",
+                "wfh atau work from home atau kerja dari rumah untuk membangun skill kerja ?"
+            ],
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, WFH atau Work From Home atau kerja dari rumah dapat memberi beberapa keuntungan bagi kamu, seperti: kebebasan gerak selama bekerja, bekerja independen, dapat mengatur jadwal sendiri, fleksibilitas, hingga tidak perlu bepergian. Namun, kelemahan kerja dari rumah juga ada, seperti: merasa terisolasi, kesulitan dalam membangun hubungan dengan rekan kerja atau manager, kebutuhan lingkungan kerja yang apa adanya. Ada beberapa tips untuk menunjang aktivitas kerja dari rumah, seperti: Mulailah mengatur lingkungan kerja yang nyaman, produktif, dan terstruktur, Secara aktif berkolaborasi dengan rekan kerja dalam menyelesaikan pekerjaan atau melakukan sharing session terkait pengetahuan terkait pekerjaan, dan Jangan lupa untuk membuat tujuan profesionalmu sendiri agar kamu dapat terus berkembang secara karir dan memiliki arah masa depan karir yang lebih transparan. Adapun beberap tools yang dapat kamu gunakan selama kerja dari rumah, antara lain: Video Conferencing/Chat (Blue Jeans, Google Hangouts, GoToMeeting, join.me, Microsoft Teams, Skype, Slack, Webex, Zoom), Penyimpanan Data (Box, Dropbox, Google Drive), Project Management (Basecamp, Trello)."
+            ]
         },
         {
-            "tag": "",
-            "patterns": [],
-            "responses": []
-        },
-        {
-            "tag": "",
-            "patterns": [],
-            "responses": []
-        },
-        {
-            "tag": "",
-            "patterns": [],
-            "responses": []
-        },
-        {
-            "tag": "",
-            "patterns": [],
-            "responses": []
-        },
-        {
-            "tag": "",
-            "patterns": [],
-            "responses": []
-        },
-        {
-            "tag": "",
-            "patterns": [],
-            "responses": []
+            "tag": "overview_gapyear_karir",
+            "patterns": [
+                "Bagaimana menyikapi job offering atau tawaran kerja ?",
+                "Tips ketika mendapat job offering atau tawaran kerja ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja sudah sesuai ?",
+                "Apa yang membuat proses menerima job offering atau tawaran kerja menjadi begitu menakutkan ?",
+                "Bagaimana langkah yang tepat dalam menerima sebuah job offering atau tawaran kerja ?",
+                "Apa yang perlu dievaluasi dalam sebuah job offering atau tawaran kerja sebelum menerimanya ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja itu sesuai ?",
+                "Apakah ada cara untuk mengevaluasi job offering atau tawaran kerja ?",
+                "Bagaimana cara menentukan apakah job offering atau tawaran kerja tersebut sesuai ?",
+                "Apa yang harus dilakukan jika merasa job offering atau tawaran kerja tidak memadai ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja sesuai ?",
+                "Apa yang perlu dipertimbangkan sebelum menerima job offering atau tawaran kerja ?",
+                "Bagaimana cara menilai job offering atau tawaran kerja ?",
+                "Apa yang harus dilakukan ketika mendapat job offering atau tawaran kerja ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja itu sesuai ?",
+                "Apakah yang harus dipertimbangkan ketika mengevaluasi job offering atau tawaran kerja ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja itu sesuai ?",
+                "Apakah ada pertimbangan dalam job offering atau tawaran kerja ?",
+                "Bagaimana cara mengetahui apakah job offering atau tawaran kerja sesuai ?",
+                "Apakah ada cara untuk mengetahui apakah job offering atau tawaran kerja sesuai ?",
+                "Job Offering atau tawaran kerja yang baik ?",
+                "Job Offering atau tawaran kerja yang sesuai ?",
+                "Job Offering atau tawaran kerja yang efektif ?",
+                "Job Offering atau tawaran kerja menakutkan ?",
+                "Job Offering atau tawaran kerja setelah lolos seleksi ?",
+                "Job Offering atau tawaran kerja dalam pengembangan karir ?",
+                "Job Offering atau tawaran kerja perlu dievaluasi ?",
+                "Job Offering atau tawaran kerja dalam pencarian pekerjaan ?",
+                "Job Offering atau tawaran kerja dalam peluang karir ?",
+                "Job Offering atau tawaran kerja dalam konteks pencarian pekerjaan ?",
+                "Job Offering atau tawaran kerja setelah mendapat kerja ?",
+                "Job Offering atau tawaran kerja dalam wawasan karir ?",
+                "Job Offering atau tawaran kerja setelah lolos seleksi ?",
+                "Job Offering atau tawaran kerja untuk membangun skill kerja ?"
+            ],
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Gap Year atau tahun jeda ialah periode dimana kamu dapat mengeksplor keunggulan dan kekuatan yang kamu miliki. Biasanya, Gap Year berlangsung antara 6 - 12 bulan. Gap Year bisa kamu lakukan bilamana kamu masih mengalami kendala akan identifikasi talenta dan passion yang kamu miliki. Beberapa pertanyaan seperti: \"Siapa aku?\", \"Kemana aku akan pergi?\", dan \"Bagaimana aku bisa mencapai titik tersebut?\" dapat kamu renungkan selama Gap Year. Di sisi lain, sebenarnya selama Gap Year, kamu bisa mencari pengalaman kerja atau magang di perusahaan ataupun startup yang menawarkan posisi kerja yang kamu inginkan. Kamu juga bisa menambah kesempatan untuk belajar lagi di tingkat pendidikan yang lebih tinggi, seperti: S2 atau S3. Kamu juga bisa bekerjaa dalam jangka pendek yang tidak terlalu menguras waktu pribadimu. Kamu juga bisa pergi berlibur ke mancanegara untuk mengetahui berbagai budaya ataupun karakter dari berbagai masyarakat diluar daerahmu. Kamu juga bisa mengikuti kegiatan volunteer atau sukarelawan dari organisasi kesehatan, lingkungan, hingga kemanusiaan untuk mengisi waktu Gap Year yang kamu miliki. Kendati demikian, Gap Year memiliki beberapa kelemahan, diantaranya: menunda waktu memulai bekerja secara formal, kurangnya pemasukan finansial, hingga rindu dengan keluarga untuk pulang ke kampung halaman bila kamu sedang berada di daerah lain yang cukup jauh dari kampung halamanmu."
+            ]
         }
     ]
 }
