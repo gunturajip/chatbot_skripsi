@@ -65,22 +65,22 @@ y = list(dataset[:, 1])
 X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2)
 
 model = Sequential()
-model.add(Dense(8, input_shape=(len(X_train[0]),), activation='relu'))
-model.add(Dense(12, activation='relu'))
-model.add(Dense(12, activation='relu'))
-model.add(Dense(12, activation='relu'))
+model.add(Dense(8, input_shape=(len(X_train[0]),), activation='softmax'))
+model.add(Dense(12, activation='softmax'))
+model.add(Dense(12, activation='softmax'))
+model.add(Dense(12, activation='softmax'))
 model.add(Dense(len(y_train[0]), activation='softmax'))
 
-sgd = SGD()
+opt = Nadam()
 model.compile(loss='categorical_crossentropy',
-              optimizer=sgd, metrics=['accuracy'])
+              optimizer=opt, metrics=['accuracy'])
 
 hist = model.fit(np.array(X_train), np.array(y_train),
                  epochs=100, batch_size=5, verbose=1,
                  validation_data=(X_val, y_val))
-model.save('chatbot_model_2.h5', hist)
+model.save('softmax_nadam.h5', hist)
 
-model = tf.keras.models.load_model("chatbot_model_2.h5")
-tf.saved_model.save(model, "chatbot_model_2")
+model = tf.keras.models.load_model("softmax_nadam.h5")
+tf.saved_model.save(model, "softmax_nadam")
 
 print('done')
