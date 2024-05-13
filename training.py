@@ -65,10 +65,10 @@ y = list(dataset[:, 1])
 X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2)
 
 model = Sequential()
-model.add(Dense(8, input_shape=(len(X_train[0]),), activation='softmax'))
-model.add(Dense(12, activation='softmax'))
-model.add(Dense(12, activation='softmax'))
-model.add(Dense(12, activation='softmax'))
+model.add(Dense(8, input_shape=(len(X_train[0]),), activation=softplus))
+model.add(Dense(12, activation=softplus))
+model.add(Dense(12, activation=softplus))
+model.add(Dense(12, activation=softplus))
 model.add(Dense(len(y_train[0]), activation='softmax'))
 
 opt = Nadam()
@@ -78,9 +78,9 @@ model.compile(loss='categorical_crossentropy',
 hist = model.fit(np.array(X_train), np.array(y_train),
                  epochs=100, batch_size=5, verbose=1,
                  validation_data=(X_val, y_val))
-model.save('softmax_nadam.h5', hist)
+model.save('softplus_nadam.h5', hist)
 
-model = tf.keras.models.load_model("softmax_nadam.h5")
-tf.saved_model.save(model, "softmax_nadam")
+model = tf.keras.models.load_model("softplus_nadam.h5")
+tf.saved_model.save(model, "softplus_nadam")
 
 print('done')
