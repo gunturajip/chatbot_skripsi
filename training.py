@@ -1,9 +1,11 @@
 import tensorflow as tf
 from keras.optimizers import SGD, RMSprop, Adagrad, Adadelta, Adam, Adamax, Nadam
 from keras.activations import sigmoid, hard_sigmoid, tanh, softmax, softsign, relu, softplus, elu, selu, swish
+from keras.losses import categorical_crossentropy
 from keras.layers import Dense
 from keras.models import Sequential
 from sklearn.model_selection import train_test_split
+import os
 # from sklearn.metrics import classification_report, confusion_matrix
 
 import random
@@ -65,32 +67,59 @@ y = list(dataset[:, 1])
 
 X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2)
 
-model = Sequential()
-model.add(Dense(8, input_shape=(len(X_train[0]),), activation=softplus))
-model.add(Dense(12, activation=softplus))
-model.add(Dense(12, activation=softplus))
-model.add(Dense(12, activation=softplus))
-model.add(Dense(len(y_train[0]), activation='softmax'))
+activations = {
+    "sigmoid": sigmoid,
+    "hard_sigmoid": hard_sigmoid,
+    "tanh": tanh,
+    "softmax": softmax,
+    "softsign": softsign,
+    "relu": relu,
+    "softplus": softplus,
+    "elu": elu,
+    "selu": selu,
+    "swish": swish
+}
+optimizers = {
+    "_sgd": SGD(),
+    "_rmsprop": RMSprop(),
+    "_adagrad": Adagrad(),
+    "_adadelta": Adadelta(),
+    "_adam": Adam(),
+    "_adamax": Adamax(),
+    "_nadam": Nadam()
+}
+for act in ["sigmoid", "hard_sigmoid", "tanh", "softmax", "softsign", "relu", "softplus", "elu", "selu", "swish"]:
+    os.mkdir(act)
 
-opt = Nadam()
-model.compile(loss='categorical_crossentropy',
-              optimizer=opt, metrics=['accuracy'])
+    for opt in ["_sgd", "_rmsprop", "_adagrad", "_adadelta", "_adam", "_adamax", "_nadam"]:
+        if opt in optimizers:
+            model_name = act + opt
+        print(model_name)
 
-hist = model.fit(np.array(X_train), np.array(y_train),
-                 epochs=100, batch_size=5, verbose=1,
-                 validation_data=(X_val, y_val))
+        model = Sequential()
+        model.add(Dense(8, input_shape=(len(X_train[0]),), activation=activations[act]))
+        model.add(Dense(12, activation=activations[act]))
+        model.add(Dense(12, activation=activations[act]))
+        model.add(Dense(12, activation=activations[act]))
+        model.add(Dense(len(y_train[0]), activation=softmax))
 
-model_name = "softplus_nadam"
-plt.plot(hist.history['accuracy'], label = "100-th Train Accuracy (" + str(hist.history['accuracy'][99]) + ")")
-plt.plot(hist.history['val_accuracy'], label = "100-th Val Accuracy (" + str(hist.history['val_accuracy'][99]) + ")")
-plt.plot(hist.history['loss'], label = "100-th Train Loss (" + str(hist.history['loss'][99]) + ")")
-plt.plot(hist.history['val_loss'], label = "100-th Val Loss (" + str(hist.history['val_loss'][99]) + ")")
-plt.title(model_name)
-plt.ylabel("Metrics")
-plt.xlabel("Epochs")
-plt.legend()
-plt.show()
-model.save(model_name + ".h5", hist)
-tf.saved_model.save(model, model_name)
+        model.compile(loss=categorical_crossentropy,
+                    optimizer=optimizers[opt], metrics=["accuracy"])
+
+        hist = model.fit(np.array(X_train), np.array(y_train),
+                        epochs=100, batch_size=5, verbose=1,
+                        validation_data=(X_val, y_val))
+
+        plt.plot(hist.history['accuracy'], label = "100-th Train Accuracy (" + str(hist.history['accuracy'][99]) + ")")
+        plt.plot(hist.history['val_accuracy'], label = "100-th Val Accuracy (" + str(hist.history['val_accuracy'][99]) + ")")
+        plt.plot(hist.history['loss'], label = "100-th Train Loss (" + str(hist.history['loss'][99]) + ")")
+        plt.plot(hist.history['val_loss'], label = "100-th Val Loss (" + str(hist.history['val_loss'][99]) + ")")
+        plt.title(model_name)
+        plt.ylabel("metrics")
+        plt.xlabel("epochs")
+        plt.legend()
+        plt.savefig(os.sep.join([model_name.split("_")[0], model_name + ".png"]))
+        model.save(os.sep.join([model_name.split("_")[0], model_name + ".h5"]), hist)
+        tf.saved_model.save(model, os.sep.join([model_name.split("_")[0], model_name]))
 
 print('done')
