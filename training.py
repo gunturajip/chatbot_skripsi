@@ -91,8 +91,6 @@ plt.xlabel("Epochs")
 plt.legend()
 plt.show()
 model.save(model_name + ".h5", hist)
-
-model = tf.keras.models.load_model(model_name + ".h5")
 tf.saved_model.save(model, model_name)
 
 print('done')
