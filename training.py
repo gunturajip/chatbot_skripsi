@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 import random
 import json
 import numpy as np
+import matplotlib.pyplot as plt
 import nltk
 # from mpstemmer import MPStemmer
 import string
@@ -78,9 +79,20 @@ model.compile(loss='categorical_crossentropy',
 hist = model.fit(np.array(X_train), np.array(y_train),
                  epochs=100, batch_size=5, verbose=1,
                  validation_data=(X_val, y_val))
-model.save('softplus_nadam.h5', hist)
 
-model = tf.keras.models.load_model("softplus_nadam.h5")
-tf.saved_model.save(model, "softplus_nadam")
+model_name = "softplus_nadam"
+plt.plot(hist.history['accuracy'], label = "100-th Train Accuracy (" + str(hist.history['accuracy'][99]) + ")")
+plt.plot(hist.history['val_accuracy'], label = "100-th Val Accuracy (" + str(hist.history['val_accuracy'][99]) + ")")
+plt.plot(hist.history['loss'], label = "100-th Train Loss (" + str(hist.history['loss'][99]) + ")")
+plt.plot(hist.history['val_loss'], label = "100-th Val Loss (" + str(hist.history['val_loss'][99]) + ")")
+plt.title(model_name)
+plt.ylabel("Metrics")
+plt.xlabel("Epochs")
+plt.legend()
+plt.show()
+model.save(model_name + ".h5", hist)
+
+model = tf.keras.models.load_model(model_name + ".h5")
+tf.saved_model.save(model, model_name)
 
 print('done')
