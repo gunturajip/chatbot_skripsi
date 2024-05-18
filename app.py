@@ -43,7 +43,7 @@ for intent in intents['intents']: # PARSING
 words = sorted(set(words))
 classes = sorted(set(classes))
 
-model = load_model('chatbot_model_1.h5')
+model = load_model('selu/selu_nadam.h5')
 
 def clean_up_sentence(sentence):
     sentence = sentence.translate(str.maketrans({_: ' ' for _ in string.punctuation})) # SPECIAL CHARACTERS REMOVAL

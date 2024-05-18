@@ -1,0 +1,184 @@
+{
+    "answers": [
+        {
+            "tag": "salam_pembuka",
+            "responses": [
+                "Hai, maaf, bisa dijelaskan lebih detail pertanyaan kamu?"
+            ]
+        },
+        {
+            "tag": "salam_penutup",
+            "responses": [
+                "Terima kasih, senang bisa membantu kamu, ada yang bisa kami bantu lagi?"
+            ]
+        },
+        {
+            "tag": "definisi_upapkk",
+            "responses": [
+                "UPA-PKK (Unit Pendukung Akademik Pengembangan Karir dan Kewirausahaan) merupakan unit pelayanan teknis di tingkat Universitas yang mempunyai fungsi pelayanan di bidang pengembangan karir dan kewirausahaan mahasiswa-alumni UPN 'Veteran' Jawa Timur. Tujuan dari UPA-PKK antara lain: Membina dan mengembangkan karir mahasiswa dan alumni, Meningkatkan kualitas mahasiswa dan alumni untuk berintegritas dengan dunia usaha, Pengembangan hubungan dan kerjasama kealumnian, dan Membina jiwa wirausaha dan keprofesionalisme mahasiswa sebagai bekal memasuki dunia kerja. Visi dari UPA-PKK ialah sebagai pusat informasi lowongan kerja dan pembinaan karir serta pengembangan kewirausahaan dalam mempersiapkan mahasiswa dan alumni yang tangguh, inovatif, dan kreatif dalam dunia kerja seta memiliki jiwa wirausaha dalam menghadapi era globalisasi. Misi dari UPA-PKK ialah Mempersiapkan mahasiswa dan alumni UPN “Veteran” Jawa Timur untuk memiliki kemampuan dengan standar kompetensi softskill dan hardskill yang dibutuhkan dunia usaha dan industri, Menciptakan jaringan kerja sama yang seluas-luasnya dengan institusi pemerintah dan DUDI, Memberikan informasi lowongan kerja dan magang, melakukan pembekalan persiapan menghadapai dunia kerja dan kewirausahaan, Melaksanakan kegiatan yang dapat mempercepat tumbuh dan berkembangnya jiwa wirausaha mahasiswa UPN “Veteran” Jawa Timur, dan Melakukan tracer study secara sensus terhadap alumni UPN “Veteran” Jawa Timur. Adapun beberapa program kerja UPA-PKK antara lain: Publikasi Lowongan Kerja, Pembekalan Calon Wisudawan, Campus Hiring, Company Goes to Campus, Pelatihan/Webinar Karir, Konsultasi Karir dan Kewirausahaan, Penyelenggaraan Job Fair, Business Gathering, Kompetesi BMC, Program Mahasiswa Wirausaha, MBKM Kewirausahaan, Tracer Study, dan Survey Karir dan Kewirausahaan."
+            ]
+        },
+        {
+            "tag": "daftar_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, terdapat 8 kompetensi untuk lulusan baru atau fresh-graduates agar dapat bersaing di dunia kerja: Career and Self-Development, Communication, Critical Thinking, Leadership, Equity and Inclusion, Professionalism, Teamwork, Technology. Perencaan dan pemantauan tujuan karir dapat diketahui dengan lebih mudah menggunakan metode SMART: Specific (apa yang yang sebenarnya ingin kamu capai?), Measureable (bagaimana indikator ukuran yang valid untuk membantumu mengetahui bahwa kamu telah mencapai tujuan karirmu?), Achievable (apakah karir yang ingin kamu capai realistis dengan kondisi dan keadaanmu dan apa saja hambatan yang berpotensi menghalangimu mencapai karirmu?), Relevant (mengapa tujuan karirmu sangat berarti dan apakah itu selaras dengan nilai - nilai dalam dirimu?), dan Timely (kapan kamu akan mencapai tujuan karirmu?)."
+            ]
+        },
+        {
+            "tag": "csd_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, peningkatan kompetensi Career & Self-Development dapat dilakukan dengan secara aktif mempelajari bidang minat dari sisi professional maupun interpersonal. Perlu juga dilakukan analisis SWOT terhadap diri sendiri secara berkala untuk mengetahui perkembangan kemampuan di bidang yang diminati. Mengarahkan diri ke berbagai kesempatan karir dan membangun jaringan pertemanan atau networking dengan orang - orang yang bekerja di bidang yang diminati juga bisa menjadi strategi ampuh dalam meningkatkan kompetensi ini."
+            ]
+        },
+        {
+            "tag": "com_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, peningkatan kompetensi Communication dapat dilakukan dengan secara konsisten mengidentifikasi dan merespons berbagai perubahan informasi, ide, fakta, dan perspektif dari orang - orang sekitar yang memiliki bidang minat sama."
+            ]
+        },
+        {
+            "tag": "cri_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, peningkatan kompetensi Critical Thinking dapat dilakukan dengan mengimplementasikan cara berpikir logis dan berbasis obyek terhadap berbagai permasalahan yang sedang dihadapi, baik di lingkungan kampus, tempat magang, keluarga, hingga diri sendiri dalam meningkatkan kemampuan di bidang yang diminati."
+            ]
+        },
+        {
+            "tag": "lea_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, peningkatan kompetensi Leadership dapat dilakukan dengan secara aktif mengikuti berbagai kegiatan organisasi, baik di dalam dan di luar kampus serta kegiata sukarelawan atau volunteer yang erat kaitannya dengan keterlibatan banyak orang dalam menyelesaikan suatu permasalahan."
+            ]
+        },
+        {
+            "tag": "equ_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, peningkatan kompetensi Equity & Inclusion dapat dilakukan dengan secara aktif terlibat dalam berbagai forum diskusi yang melibatkan berbagai cara berpikir dan kebudayaan yang berbeda dan secara konsisten menjaga kesadaran, sikap, pengetahuan, dan skill ketika memberikan pandangan maupun respons pada forum diskusi di bidang yang diminati."
+            ]
+        },
+        {
+            "tag": "pro_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, peningkatan kompetensi Professionalism dapat dilakukan dengan secara aktif dan konsisten belajar dan memahami berbagai lingkungan kerja serta memahami cara kerja yang efektif di bidang yang diminati dari berbagai praktisi yang berpengalaman di bidang tersebut."
+            ]
+        },
+        {
+            "tag": "tea_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, peningkatan kompetensi Teamwork dapat dilakukan dengan secara aktif terlibat dalam perumusan ide, eksekusi, dan pengawasan terhadap penyelesaian masalah di berbagai kegiatan organisasi maupun non-organisasi sesuai bidang yang diminati."
+            ]
+        },
+        {
+            "tag": "tec_kompetensi_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, peningkatan kompetensi Technology dapat dilakukan dengan secara aktif dan konsisten memahami dan belajar hal - hal baru terkait teknologi terbaru yang populer dan mendapat pengakuan dari para praktisi di bidang yang diminati."
+            ]
+        },
+        {
+            "tag": "overview_resume_karir",
+            "responses": [
+                "Disarankan membuat resume berbasis ATS (Applicant Tracking System), tidak memiliki isi terlalu panjang dalam tiap section pada resume, serta menggunakan Bahasa Inggris formal. Adapun beberapa section pada resume, yakni: work experience (pengalaman kerja atau kegiatan kampus), education and certifications (pendidikan dan sertifikasi yang dimiliki), technologies and skills (teknologi dan skill yang dikuasai), projects and achievements (proyek dan pencapaian terbaru). Ada 8 hal yang tidak boleh dilakukan ketika menulis resume, yakni: Terlalu men-generalisir skill yang dimiliki dan membuat poin - poin yang tidak jelas, Memasukkan pertanyaan obyektif yang bersifat umum, Menggunakan template resume yang sulit untuk dimodifikasi di waktu mendatang, Memiliki lebih dari 2 halaman resume, Membohongi perusahaan tentang IPK kuliah, skill, dan kemampuan yang dimiliki, Memasukkan dokumen pendukung pengalaman kerja di dalam resume, Memasukkan rutinitas kerja yang tidak terkait dengan posisi pekerjaan, Meninggalkan ruang tanpa tulisan di bagian bawah resume. Lebih detail dapat mengunduh template resume pada <a href=\"https://docs.google.com/document/d/1sK29U35wGsc9ioGdu_M4NGvpXd4nWLB_9KPS6r7Lugc\">link berikut.</a>"
+            ]
+        },
+        {
+            "tag": "overview_cv_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, ada banyak template CV yang bagus dan efektif, salah satunya dapat dicari pada website Academia.edu hanya dengan membuat akun gratis. CV atau Curriculum Vitae yang baik untuk para fresh-graduates maksimal memiliki 3 halaman. Perlu dipastikan juga bahwa isi dari CV terfokus pada posisi atau karir yang diinginkan. Untuk posisi - posisi karir yang bersifat akademis, biasanya reviewer CV hanya meluangkan waktu sekitar 20 - 30 detik pertama. Adapun beberapa section yang perlu ada pada CV, yakni: contact information (berisi nama, kota, provinsi, dan email), education (jurusan, nama institusi pendidikan, dan tanggal lulus pendidikan), professional affiliations (berisi deskripsi pengalaman di bidang kepemimpinan, organisasi, magang, ataupun kerja), research and teaching interesets (berisi ringkasan penelitian ataupun pengalaman mengajar), skills (berisi daftar kemampuan yang dikuasai), publications (berisi publikasi yang dimiliki), honors & awards (berisi daftar penghargaan dan kejuaraan yang dimiliki), conference presentations (berisi daftar pengalaman terkait seminar beserta tanggal seminar). Lebih detail dapat mengunduh template CV atau curriculum vitae pada <a href=\"https://docs.google.com/document/d/1xZrXcB5BJWX6PClnVQ5tG6Cjwd1j2hEuhGSyclAaBaI\">link berikut.</a>"
+            ]
+        },
+        {
+            "tag": "overview_coverletter_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, ada 10 tips untuk membuat cover letter atau surat lamaran kerja yang dimiliki yang bagus, yakni: samakan konteks pengalaman kerjamu dengan resume yang kamu punya dan coba untuk jelaskan hal - hal menarik terkait bagi perusahaan terkait pengalaman kerja tersebut, buat isi jaringan karir yang dimiliki sekitar 3/4 ukuran halaman penuh, sebutkan dengan jelas posisi yang kamu inginkan, lakukan riset dan tunjukkan pemahamanmu akan perusahaan yang kamu lamar sesuai hasil risetmu, jelaskan secara humanis alasan kamu memilih posisi tersebut kepada perusahaan, jelaskan bagaimana cara kamu berkontribusi kepada perusahaan, fokus pada keunggulan yang kamu miliki dan bukan kelemahanmu, kurangi penggunaan kata \"saya\", nyatakan bagaimana dan kapan kamu ingin mendapat respon atas lamaranmu dari perusahaan, baca ulang jaringan karir yang dimiliki beberapa kali untuk memperbaiki kata - kata yang kurang dapat jelas terbaca oleh perusahaan saat proses review surat lamaranmu. salah satu cara ampuh untuk meningkatkan kualitas surat lamaranmu ialah dengan melampirkan hubunganmu dengan rekan akademisi ataupun profesional yang pernah bekerja bersamamu. Pastikan rekan - rekan yang kamu pilih berhubungan dekat dan mengenalmu, serta memilki posisi yang jelas secara akademisi ataupun profesional. Jangan lupa untuk meminta izin akan ketersediaan rekan - rekanmu dalam membantu memberikan testimoni selama bekerja bersamamu secara positif. Lebih detail dapat mengunduh template cover letter atau surat lamaran pada <a href=\"https://cdn.uconnectlabs.com/wp-content/uploads/sites/123/2021/06/sample-cover-letters-3.pdf\">link berikut.</a>"
+            ]
+        },
+        {
+            "tag": "overview_research_ilmiah",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, guna mengikuti atau terlibat dalam penelitian atau riset ilmiah, kita perlu mulai membuat pernyataan individu dengan beberapa poin penting di dalamnya: Sebutkan beberapa penelitian yang pernah kamu lakukan terkait program penelitian yang kamu lamar dan bagikan lama periode belajarmu di perguruan tinggi atau lembaga selevel. Jangan lupa untuk menyatakan tujuan profesionalmu dan apa yang kamu ingin kontribusikan pada program penelitian tersebut, membagikan ketertarikan dan antusiasme kamu terhadap bidang penelitian tersebut, mendemonstrasikan hal - hal yang dapat kamu kontribusikan pada program penelitian tersebut, menyebutkan laboratorium atau departemen mana yang kamu inginkan untuk melakukan penelitian tersebut, menyebutkan beberapa rekan penelitian yang pernah bekerja bersamamu sebelumnya, dan tulis sesuatu yang unik dari riset yang pernah kamu lakukan dan ide yang mungkin akan kamu terapkan pada program penelitian yang kamu lamar."
+            ]
+        },
+        {
+            "tag": "overview_network_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Networking atau jaringan kenalan karir sangat penting untuk kamu lebih cepat mendapat berbagai informasi seputar karir yang kamu dalami atau hanya sekedar menambah wawasan tentang cara mereka bekerja dan berkembang di bidang karir yang mereka dalami. Kamu bisa mulai masuk ke media sosial bernama LinkedIn dan terhubung dengan beberapa orang yang memiliki ketertarikan atau karir sama sepertimu, terutama para recruiter maupun perusahaan - perusahaan yang juga bergerak di bidang yang kamu dalami. Mulailah aktif mencari berbagai informasi terkait apa saja yang perlu kamu tingkatkan dari karir yang kamu dalami. Kamu juga bisa bertanya kepada orang - orang yang telah terhubung denganmu untuk meminta saran dan kritik terkait pengalaman dan kemampuan yang kamu miliki sekarang untuk dapat meningkatkan jenjang karir yang kamu inginkan. Ada beberapa tips menarik yang dapat kamu implementasikan guna meningkatkan kualitas networking atau jaringan kenalan karir yang dimiliki, yakni: gunakan prinsip ATM (Amati, Tiru, Modifikasi) sikap dan tingkah laku mereka yang telah terbukti sukses di bidang pekerjaan tertentu, bersikap antusias terhadap kebiasaan orang - orang yang terbukti sukses menjadi praktisi di bidang yang diinginkan, amati setiap detail tingkah laku dan sikap mereka ketika bertemu atau aktif membagikan pengalaman di media sosial terkait bidang yang digeluti, ambil sisi positif dari sikap dan tingkah laku mereka yang relevan dengan peningkatan jenjang karir yang kamu inginkan, terapkan sikap profesionalisme dalam menyelesaikan suatu masalah dari hal simpel dalam kehidupanmu agar dapat menjadi kebiasaan yang positif ketika kamu diterima kerja nantinya."
+            ]
+        },
+        {
+            "tag": "overview_personalbranding_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, personal branding atau pengembangan reputasi atau kredibilitas karir sangat penting dalam pengembangan karir kamu. Personal branding akan membuat kamu lebih percaya diri ketika menambah networking atau jaringan kenalan karir dan melamar kerja. Ada persamaan yang cukup menarik berkenaan dengan personal branding ini, yakni: Authentic + Consistent = Trustworthy. Maksudnya, authentic atau asli dan orisinalitas reputasi dan pengalaman karir yang digabung dengan consistent atau secara konsisten menyatakan reputasi dan pengalaman karir yang sama di berbagai kesempatan atau media sosial yang kamu miliki akan membuat perusahaan lebih mudah percaya denganmu dan meningkatkan persentase kamu untuk mendapat pekerjaan di bidang yang kamu inginkan. Ada beberapa tips guna meningkatkan kualitas personal branding atau reputasi atau kredibilitas karir kamu, yakni: membuat video promosi tentang kemampuanmu selama 30 detik yang berisi perkenalan singkat tentang identitasmu, penyebutan beberapa keunggulan dan pencapaian kamu telah kamu raih, cara kamu memberikan kontribusi positif kepada perusahaan, dan kemas semua hal tersebut dalam bentuk yang jelas dan simpel agar mudah dimengerti oleh audiens. Mulailah melengkapi profil akun LinkedIn-mu dengan mengunggah foto yang jelas dan profesional, isi headline LinkedIn yang unik dan memiliki nilai tinggi sesuai kemampuan atau pengalaman yang kamu punya di bidang tertentu, tambahkan rangkuman riwayat karirmu dengan mengutamakan pada beberapa kemampuan serta pencapaian terbaik yang telah kamu raih, minta rekomendasi performa karir dari rekan kerja, baca ulang data yang telah kamu isi apabila terdapat kesalahan penulisan atau ketidaksesuaian makna sesuai kemampuan atau pengalaman yang kamu miliki."
+            ]
+        },
+        {
+            "tag": "overview_internship_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, proses mencari internship atau magang karir adalah proses memasarkan skill yang kamu miliki - meyakinkan perusahaan untuk \"membeli\" apa yang kamu tawarkan. Agar dapat melakukan hal ini dengan efektif, kamu perlu mengetahui apa yang kamu \"jual\" (contohnya, skill kamu, pengalaman kamu, pendidikan kamu, dan ketertarikan kamu terkait bidang pekerjaan yang kamu lamar) dan kepada siapa kamu \"menjual\" (contohnya, posisi pekerjaan dan bidang industri yang kamu lamar). Selanjutnya, kamu perlu menunjukkan brosur yang menarik berkenaan guna memasarkan skill yang kamu miliki (contohnya, portfolio kamu seputar bidang pekerjaan yang kamu incar, resume, curicculum vitae) dan menerapkan strategi pemasaran yang efektif (contohnya, teknik pencarian internship atau magang karir yang terfokus pada bidang yang kamu incar). Lebih lanjut, carilah penasehat karir (contohnya, dosen kuliah dan teman kuliah yang sudah pernah mengikuti internship atau magang karir), bangun jaringan karir dengan menghadiri berbagai event dan kompetisi terkait bidang yang kamu incar seperti Career Fair yang ada di kampusmu serta melalui platform media sosial karir LinkedIn, identifikasi perusahaan yang relevan dengan posisi yang kamu incar, lakukan riset dan kontak perusahaan melalui pihak recruiter secara langsung untuk melamar posisi pekerjaan yang kamu incar, manfaatkan sumber daya pengembangan karir dan event terkait karir untuk menambah peluang kamu melamar ke lebih banyak tempat dengan posisi yang kamu incar (contohnya, Career Fair di kampusmu, serta beberapa media sosial seperti LinkedIn, Jobstreet, dan Glints), dan bangun hubungan yang baik dengan para recruiter perusahaan yang telah kamu lamar (contohnya, berinisiatif untuk menanyakan perihal hasil lamaran yang telah kamu lakukan pada perusahaan recruiter tersebut selang beberapa minggu setelah kamu melamar dengan bahasa yang sopan dan efektif)."
+            ]
+        },
+        {
+            "tag": "overview_interview_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, ada 3 proses untuk dapat sukses dalam menghadapi interview, yakni: lakukan riset terkait perusahaan tempat kamu di-interview (contohnya, bidang bisnis perusahaan, visi misi perusahaan, produk dan layanan perusahaan, dan strategi perusahaan untuk dapat berkembang), rencanakan detail terkait skill yang kamu miliki beserta potensi pertanyaan oleh recruiter terhadap skill kamu dan relevansinya dengan posisi yang kamu lamar (contohnya, kamu bisa dalami unsur teknis dan sistem dari setiap skill yang kamu miliki dan menunjukkan pemahaman yang kamu miliki ketika menjawab pertanyaan oleh recruiter), dan banyaklha berlatih dalam menjawab pertanyaan dari recruiter (contohnya, kamu bisa melakukan sesi mock interview atau wawancara tiruan dengan teman kuliah, dosen kampus, ataupun praktisi di bidang yang relevan dengan posisi yang kamu lamar). Jangan lupa untuk mengimplementasikan metode S.T.A.R (Situation, Task, Action, Result) dimana Situation merupakan proses kamu menggambarkan suatu situasi yang pernah kamu alami dan kamu anggap sebagai sebuah permasalahan yang perlu diselesaikan, Task merupakan proses kamu menggambarkan tujuan dan risiko dari permasalahan tadi berdasarkan analisis yang kamu lakukan untuk memudahkan dalam menyelesaikan permasalahan tersebut, Action merupakan proses kamu menggambarkan aksi apa saja yang kamu ambil berdasarkan poin - poin pada proses Task dengan menggunakan skill yang kamu miliki, Result merupakan proses kamu menggambarkan hasil dari aksi yang telah kamu ambil dan dampaknya terhadap penyelesaian permasalahan sebelumnya. Ada beberap tips guna meningkatkan kualitas interview atau wawancara karir kamu, yakni: berusahalah untuk bersikap profesional dengan salam tangan yang tegas, postur duduk tegap, dan pandangan mata yang konsisten menatap ke recruiter atau pewawancara kamu, jaga senyuman untuk menghangatkan suasana selama interview, dan jangan tergesa - gesa dalam mengatur jawaban yang baik dan tepat di setiap pertanyaan yang diajukan. Pada fase akhir interview, kamu bisa menanyakan beberap hal terkait posisi yang kamu lamar ataupun kebijakan perusahaan berkenaan jam kerja, jadwal makan siang, ataupun hal lain yang ingin kamu perjelas. Setelah interview selesai dilakukan, jangan lupa untuk melakukan follow-up kepada recruiter kamu terkait hasil interview dan melalui media apa kamu akan mendapat hasil interview tersebut."
+            ]
+        },
+        {
+            "tag": "overview_chatgpt_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, ChatGPT dapat memberi wawasan tambahan bersifat fundamental terkait eksplorasi karir, pencarian kerja, networking, dan interview kerja. Dengan memasukkan pertanyaan seputar industri, peran pekerjaan, dan kualifikasi kerja yang dibutuhkan, kamu sudah dapat mendapat banyak insight yang dapat menambah wawasan seputar pengembangan karir yang kamu lakukan. ChatGPT bisa dijadikan teman interview kamu dengan memberikan banyak masukan tambahan tentang cara interview. Kamu juga bertanya tentang jenis pekerjaan yang sedang trending atau memiliki banyak peminat di bidang pekerjaan yang kamu tekuni sekarang untuk mendapat lebih banyak wawasan. Kendati demikian, ChatGPT juga memiliki batasan dalam memberikan wawasan tambahan seputar pengembangan karir. Tingkat keorisinalan saran yang diberikan sangat bergantung pada data pelatihan ChatGPT dan tidak selalu up-to-date. Itulah mengapa kamu juga harus melakukan cross-check terhadap masukan dari ChatGPT dengan informasi dari Career Center di dekatmu guna memvalidasi informasi dan wawasan yang kamu peroleh."
+            ]
+        },
+        {
+            "tag": "overview_freshgraduate_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, ada beberapa hal yang bisa dilakukan kamu para fresh graduates dalam memulai pengembangan karir, dimulai dengan berkonsultasi kepada Career Center di kampus tentang kejelasan karir yang diiginkan. Perbaiki resume dan dokumen pendukung lamaran kerja lainnya, seperti ijazah, CV atau curriculum vitae, hingga surat lamaran kerja. Mulailah mencari dan melamar di berbagai lowongan pekerjaan di internet maupun Career Fair di beberapa kampus. Siapkan dirimu dalam menghadapi seleksi internship dan interview. Ikuti program virtual interview dan mulailah berkenalan dengan beberapa karyawan perusahaan di program tersebut. Ikuti beberapa program internal di kampusmu atau organisasi diluar kampus yang dapat menunjang pengembangan karir dan skill kerjamu. Jangan lupa untuk melakukan riset terhadap beberapa perusahaan yang ingin kamu masuki."
+            ]
+        },
+        {
+            "tag": "overview_values_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, keputusan karir terbaik ialah yang selaras dengan nilai-nilai pribadi yang ada dalam dirimu. Nilai-nilai tersebut merepresentasikan kepercayaanmu tentang apa yang penting dalam pekerjaanmu dan berarti bagimu. Saat nilai-nilai pribadimu selaras dengan bagaimana kamu hidup dan bekerja, kamu akan cenderung merasa puas. Berikut beberapa rekomendasi nilai-nilai pribadi yang bisa kamu jadikan acuan ketika melamar kerja: Kemajuan, Keprihatinan, Keamanan Kerja, Estetika, Keluarga, Kepemimpinan, Afiliasi, Tepat Waktu, Pengambil Keputusan, Membantu Masyarakat, Stabilitas Keuangan, Pemenuhan Moral, Keaslian, Fleksibilitas, Pertumbuhan Diri, Otonomi, Kesenangan, Pengakuan, Tantangan, Menghasilkan Pengetahuan, Status, Perubahan, Ketenangan, Dapat Diprediksi, Membantu Orang Lain, Kerja Tim, Kreativitas, Pendapatan Tinggi, Bekerja Sendiri, Diversitas, Mempengaruhi Orang Lain, Keseimbangan Hidup dan Kerja."
+            ]
+        },
+        {
+            "tag": "overview_portofolio_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, portofolio penting untuk memberikan para perekrut di berbagai perusahaan yang ingin kamu lamar tentang apa yang kamu tawarkan kepada mereka dan apa yang unik dan berbeda darimu sehingga mereka tertarik untuk merekrut kamu. Portofolio bisa berupa karya tulis, proyek teknis, proyek desain, presentasi, produksi video, pengembangan game, hingga kemampuan fotografi. Bahkan ada juga perekrut mungkin akan memintamu mengirim portofolio digital agar mereka lebih mudah dalam melakukan pengecekan terhadap kemampuan kerja yang kamu miliki. Ada beberapa portofolio berupa karya tulis, yakni: laporan riset ilmiah, policy brief, laporan laboratorium, postingan blog, hingga artikel di surat kabar. Kendati demikian, kamu perlu mengemas semua portofolio kamu dalam bentuk yang mudah dipahami ketika diminta oleh para perekrut, biasanya 1 - 4 halaman sudah cukup untuk menggambarkan berbagai karya yang pernah kamu buat. Kamu juga bisa melampirkan dokumen riset ilmiah selama berkuliah di kampus ataupun sertifikasi kompetensi di bidang pekerjaan yang relevan dengan posisi pekerjaan yang kamu lamar sebagai tambahan portofolio. Portofolio juga bisa berupa keaktifanmu dalam berbagai acara di bidang pekerjaan yang kamu inginkan, baik acara nasional maupun internasional. Bila kamu anak IT, kamu juga bisa melampirkan portofolio berupa website pribadi atau akun Github. Ada juga platform gratis yang bisa kamu gunakan untuk melampirkan berbagai portofolio kamu, seperti: ArtStation, Canva, Dribble, FolioSpaces, FolioTek, Vimeo, Weebly, Wix, WordPress, dan Youtube."
+            ]
+        },
+        {
+            "tag": "overview_linkedin_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Linkedin dapat kamu gunakan sebagai kehadiran profesional kamu di internet. Ada beberapa bagian dalam halaman Linkedinmu, yakni: Photo, Connections, Headline, Skills, About dan Public Profile URL. Untuk bagian Photo, pilihlah foto profilmu seorang diri dan usahakan untuk bersikap profesional. Bagian Headline terletak tepat dibawah namamu dimana kamu bisa membuat beberapa kata kunci yang relevan dengan skill maupun posisi pekerjaan yang kamu inginkan atau tekuni, sebagai contoh: UMBC Technology Student/Creative Problem Solver. Bagian Connections terletak dibawah bagian Headline yang menunjukkan jumlah orang yang berhubungan atau connect denganmu, mirip seperti Follow dan Follow Back di beberapa platform media sosial lain seperti Instagram. Bagian Skills bisa kamu dapatkan dengan memilih untuk menunjukkan bagian tersebut melalui tombol \"Tambah bagian profil\" atau \"Add profile section\" dimana kamu bisa memilih beberapa skill yang relevan dengan bidang pekerjaan yang kamu tekuni. Bagian About bisa kamu isi dengan keunggulan serta pengalaman kerjamu yang relevan dengan posisi pekerjaan yang kamu inginkan pada 3 baris pertama mengingat 3 baris pertama dapat dengan mudah dilihat oleh orang lain. Bagian Public Profile URL bisa kamu ubah sesuai dengan preferensi yang kamu inginkan untuk memudahkanmu dalam membagikan halaman Linkedin milikmu dan lebih mudah dihafal oleh orang lain. Kamu juga bisa mulai membuka halaman Linkedin dari UPN \"Veteran\" Jawa Timur dan mencai berbagai alumni yang juga berkuliah di kampus tersebut. Cobalah mulai lakukan Follow atau Connect dengan beberapa alumni yang memiliki preferensi skill pekerjaan yang sesuai dengan dirimu. Ketika kamu berhasil berhubungan dengan beberapa alumni tersebut, kamu akan secara otomatis mengetahui berbagai kegiatan di Linkedin yang mereka lakukan, seperti membagikan pengalaman kerja mereka, postingan kerja atau skill yang mereka sukai hingga lowongan kerja yang mereka bagikan dari perusahaan tertentu."
+            ]
+        },
+        {
+            "tag": "overview_redflag_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Red Flag merupakan kondisi dimana sebuah perusahaan yang membuka lowongan kerja meminta biaya pendaftaran ataupun seleksi kepada kamu. Biasanya pemosting lowongan kerja tersebut adalah scammer yang yang berpura-pura menjadi seorang karyawan atau perekrut di perusahaan terkait. Mereka menggunakan iklan lowongan kerja untuk mengelabuhi kamu yang sedang mencari pekerjaan. Mereka biasanya akan bersikap baik dan ramah di awal pembicaraan, namun akan meminta kamu melakukan beberapa hal yang tidak seharusnya dilakukan dan aneh. Beberapa ciri lowongan kerja yang bisa dikatakan Red Flag, diantaranya: menanyakan hal seputar umur, status kewarganegaraan, status pernikahan, kondisi fisik, keaktifan politik, keagamaan, ataupun etnis, asal suku atau ras, agama, hingga rencana untuk memiliki keturunan. Mereka juga seringkali meminta kamu untuk menyediakan kartu kredit, nomor akun bank kamu, atau dokumen finansialmu yang lain meski belum direkrut. Alamat kontak mereka juga seringkali tidak sama dengan alamat kontak dari perusahaan yang dikaitkan, seperti: nama perusahaan \"Omega Inc.\" namun alamat email mereka memiliki domain Yahoo. Mereka juga biasanya menggunakan alamt email phising yang berpotensi mencuri data pribadi kamu melalui device yang kamu gunakan untuk membuka email tersebut. Deskripsi pekerjaan memiliki banyak kata-kata informal ataupun kata-kata yang salah pengejaannya. Mereka biasanya meminta kamu untuk membayar sejumlah uang yang nominalnya cukup besar dengan imbal balik kamu akan diterima kerja. Red Flag juga bisa datang dari lowongan kerja yang tidak pernah kamu lamar, namun tiba-tiba muncul di email atau notifikasi media sosial kamu. Deskripsi pekerjaan tidak jelas dan kecepatan mereka dalam membaca lamaran kerja yang kamu kirim, baik berupa CV atau curriculum vitae, resume, ataupun cover letter hanya jeda beberapa menit atau jam."
+            ]
+        },
+        {
+            "tag": "overview_joboffering_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Job Offering atau tawaran kerja biasanya dilakukan ketika kamu telah lolos tahap Interview dan seleksi dari lowongan kerja yang kamu lamar. Sebelum kamu menerima tawaran kerja, kamu perlu mempertimbangkan beberapa hal yang ditawarkan dari pekerjaan tersebut, seperti: potensi kemajuan karir, paket keuntungan kerja (asuransi kesehatan, pensiun), budaya dan etika perusahaan, jam kerja flesibel atau tidak, mengikuti tren industri atau tidak, kesesuaian pekerjaan, keamanan kerja, status pekerjaan (full-time atau kontraktor), lokasi kerja, nilai-nilai kerja, work-life balance, pengembangan karir profesional, nominal gaji, pelatihan kerja, travel, bantuan biaya pendidikan. Kamu juga perlu mengevaluasi tawaran kerja dengan prinsip 3T (Tone: kamu perlu apresiasi dan berpikir positif atas tawaran kerja yang kamu dapatkan, Timeliness: antusias dan tepat waktu dalam melengkapi berkas ataupun dokumen kerja setelah mendapat tawaran kerja, Tactics: selalu berkomunikasi dengan perekrut selama proses melengkapi berkas dokumen berjalan dan tetap sopan dalam bertanya sesuatu yang tidak kamu mengerti terkait tahapan tertentu dalam proses tersebut). Kamu juga perlu memberikan respon atau umpan balik yang menyatakan bahwa kamu menerima tawaran kerja bila kamu memang telah menerima segala fasilitas yang ditawarkan sebelumnya. Setelah kamu menerima tawaran kerja, jangan membatalkannya karena kamu akan dinilai tidak profesional dan tidak beretika dalam proses pencarian kerja, serta itu akan membuat personal branding yang kamu lakukan sebelumnya dicap buruk oleh perusahaan yang memberikan tawaran kerja kepadamu."
+            ]
+        },
+        {
+            "tag": "overview_gaji_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, negosiasi gaji setelah pada waktu proses interview kerja atau setelah mendapat tawaran kerja perlu dilakukan untuk menyelaraskan apa yang kamu berikan dan apa yang kamu dapatkan dari perusahaan. Lakukanlah beberapa riset terlebih dahulu sebelum melakukan negosiasi gaji dengan mengetahui rentang gaji secara umum di lokasi tempat kamu akan bekerja. Kamu bisa mendemonstrasikan pengetahuanmu setelah melakukan beberapa riset terkait rentang gaji, semisal: \"Riset yang saya lakukan menunjukkan bahwa karyawan magang di bidang Sistem Informasi menerima gaji antara 15 USD hingga 23 USD dengan rata-rata gaji 19 USD. Berdasarkan kualifikasi saya yang kuat, saya rasa gaji pada rentang 17 USD hingga 20 USD sesuai untuk saya.\". Kamu juga bisa menanyakan balik kepada perekrut tentang apa yang akan didapatkan oleh karyawan lain yang memiliki latar belakang, skill, dan kualifiksi sepertimu di posisi pekerjaan terkait. Bila pihak perekrut masih sulit dalam negosiasi gaji, tanyakan apakah ada aspek lain yang bisa dinegosiasikan, seperti: jatah liburan, atau opsi untuk bekerja secara remote maupun hybrid. Perlu diingat bahwa negosiasi gaji ini tidak boleh dilakukan sebelum kamu mendapat tawaran kerja yang jelas."
+            ]
+        },
+        {
+            "tag": "overview_wfh_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, WFH atau Work From Home atau kerja dari rumah dapat memberi beberapa keuntungan bagi kamu, seperti: kebebasan gerak selama bekerja, bekerja independen, dapat mengatur jadwal sendiri, fleksibilitas, hingga tidak perlu bepergian. Namun, kelemahan kerja dari rumah juga ada, seperti: merasa terisolasi, kesulitan dalam membangun hubungan dengan rekan kerja atau manager, kebutuhan lingkungan kerja yang apa adanya. Ada beberapa tips untuk menunjang aktivitas kerja dari rumah, seperti: Mulailah mengatur lingkungan kerja yang nyaman, produktif, dan terstruktur, Secara aktif berkolaborasi dengan rekan kerja dalam menyelesaikan pekerjaan atau melakukan sharing session terkait pengetahuan terkait pekerjaan, dan Jangan lupa untuk membuat tujuan profesionalmu sendiri agar kamu dapat terus berkembang secara karir dan memiliki arah masa depan karir yang lebih transparan. Adapun beberap tools yang dapat kamu gunakan selama kerja dari rumah, antara lain: Video Conferencing/Chat (Blue Jeans, Google Hangouts, GoToMeeting, join.me, Microsoft Teams, Skype, Slack, Webex, Zoom), Penyimpanan Data (Box, Dropbox, Google Drive), Project Management (Basecamp, Trello)."
+            ]
+        },
+        {
+            "tag": "overview_gapyear_karir",
+            "responses": [
+                "Menurut UMBC Career Guide 2023-2024, Gap Year atau tahun jeda ialah periode dimana kamu dapat mengeksplor keunggulan dan kekuatan yang kamu miliki. Biasanya, Gap Year berlangsung antara 6 - 12 bulan. Gap Year bisa kamu lakukan bilamana kamu masih mengalami kendala akan identifikasi talenta dan passion yang kamu miliki. Beberapa pertanyaan seperti: \"Siapa aku?\", \"Kemana aku akan pergi?\", dan \"Bagaimana aku bisa mencapai titik tersebut?\" dapat kamu renungkan selama Gap Year. Di sisi lain, sebenarnya selama Gap Year, kamu bisa mencari pengalaman kerja atau magang di perusahaan ataupun startup yang menawarkan posisi kerja yang kamu inginkan. Kamu juga bisa menambah kesempatan untuk belajar lagi di tingkat pendidikan yang lebih tinggi, seperti: S2 atau S3. Kamu juga bisa bekerjaa dalam jangka pendek yang tidak terlalu menguras waktu pribadimu. Kamu juga bisa pergi berlibur ke mancanegara untuk mengetahui berbagai budaya ataupun karakter dari berbagai masyarakat diluar daerahmu. Kamu juga bisa mengikuti kegiatan volunteer atau sukarelawan dari organisasi kesehatan, lingkungan, hingga kemanusiaan untuk mengisi waktu Gap Year yang kamu miliki. Kendati demikian, Gap Year memiliki beberapa kelemahan, diantaranya: menunda waktu memulai bekerja secara formal, kurangnya pemasukan finansial, hingga rindu dengan keluarga untuk pulang ke kampung halaman bila kamu sedang berada di daerah lain yang cukup jauh dari kampung halamanmu."
+            ]
+        }
+    ]
+}

@@ -1,4 +1,5 @@
 import tensorflow as tf
+import tensorflowjs as tfjs
 from keras.optimizers import SGD, RMSprop, Adagrad, Adadelta, Adam, Adamax, Nadam
 from keras.activations import sigmoid, hard_sigmoid, tanh, softmax, softsign, relu, softplus, elu, selu, swish
 from keras.losses import categorical_crossentropy
@@ -46,7 +47,16 @@ for intent in intents['intents']: # PARSING
             classes.append(intent['tag'])
 
 words = sorted(set(words))
+with open("words.txt", "w") as f:
+    for i in words:
+        f.write(i + "\n")
+    f.close()
+
 classes = sorted(set(classes))
+with open("classes.txt", "w") as f:
+    for i in classes:
+        f.write(i + "\n")
+    f.close()
 
 dataset = []
 output_empty = [0] * len(classes)
@@ -69,7 +79,7 @@ X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2)
 
 activations = {
     "sigmoid": sigmoid,
-    "hard_sigmoid": hard_sigmoid,
+    "hardsigmoid": hard_sigmoid,
     "tanh": tanh,
     "softmax": softmax,
     "softsign": softsign,
@@ -88,7 +98,7 @@ optimizers = {
     "_adamax": Adamax(),
     "_nadam": Nadam()
 }
-for act in ["sigmoid", "hard_sigmoid", "tanh", "softmax", "softsign", "relu", "softplus", "elu", "selu", "swish"]:
+for act in ["sigmoid", "hardsigmoid", "tanh", "softmax", "softsign", "relu", "softplus", "elu", "selu", "swish"]:
     os.mkdir(act)
 
     for opt in ["_sgd", "_rmsprop", "_adagrad", "_adadelta", "_adam", "_adamax", "_nadam"]:
@@ -119,7 +129,9 @@ for act in ["sigmoid", "hard_sigmoid", "tanh", "softmax", "softsign", "relu", "s
         plt.xlabel("epochs")
         plt.legend()
         plt.savefig(os.sep.join([model_name.split("_")[0], model_name + ".png"]))
+        plt.close()
         model.save(os.sep.join([model_name.split("_")[0], model_name + ".h5"]), hist)
-        tf.saved_model.save(model, os.sep.join([model_name.split("_")[0], model_name]))
+        model = tf.keras.models.load_model(os.sep.join([model_name.split("_")[0], model_name + ".h5"]))
+        tfjs.converters.save_keras_model(model, os.sep.join([model_name.split("_")[0], model_name]))
 
 print('done')
