@@ -5,9 +5,7 @@ const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 const inputInitHeight = chatInput.scrollHeight;
 
-let isNewResponse = false;
 let userMessage = null; // Variable to store user's message
-let botMessage = null;
 let conversationCount = 0;
 
 const createChatLi = (message, className, currentMillis) => {
