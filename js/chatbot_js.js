@@ -78,9 +78,9 @@ const handleChat = async () => {
 
             let words = await fetch(`${window.location.origin}/words.txt`)
                 .then((response) => response.text())
-                .then((text) => text.trim().split('\n'));
+                .then((text) => text.trim().split('\r\n'));
 
-            let input = await bag_of_words(userMessage, stopwords, words)
+            let input = await bag_of_words(userMessage, stopwords, words);
             return input
         }
 
@@ -88,7 +88,7 @@ const handleChat = async () => {
             const input = await prepare();
             const modelPath = `${window.location.origin}/selu/selu_nadam/model.json`;
             const model = await tf.loadLayersModel(modelPath);
-            const prediction = await model.predict(tf.tensor2d([input], [1, 461])).data();
+            const prediction = await model.predict(tf.tensor(input, [1, 461])).data();
             const probThreshold = 0.25;
             let result = [];
             for (let i = 0; i < prediction.length; i++) {
@@ -101,26 +101,22 @@ const handleChat = async () => {
         async function get_response(intents_list) {
             let classes = await fetch(`${window.location.origin}/classes.txt`)
                 .then((response) => response.text())
-                .then((text) => text.trim().split('\n'));
-            console.log(classes);
+                .then((text) => text.trim().split('\r\n'));
 
             let answers = await fetch(`${window.location.origin}/answers.json`)
                 .then((response) => response.json());
-            console.log(answers);
 
             let tag = classes[intents_list[0][0]];
-            if ((tag == "salam_pembuka" || tag == "salam_penutup") && intents_list.length > 1) {
+            if ((tag === "salam_pembuka" || tag === "salam_penutup") && intents_list.length > 1) {
                 tag = classes[intents_list[1][0]];
             }
-            console.log(tag);
             let result = "";
             for (let i of answers["answers"]) {
-                if (i["tag"] == tag) {
+                if (i["tag"] === tag) {
                     result = i["responses"][0];
                     break;
                 }
             }
-            console.log(result);
             return result;
         }
 
