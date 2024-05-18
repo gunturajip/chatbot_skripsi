@@ -3,11 +3,10 @@ import json
 import numpy as np
 import string
 import nltk
-# from mpstemmer import MPStemmer
 
 from keras.models import load_model
 
-from flask import Flask, render_template, jsonify, request
+from flask import Flask
 from flask_socketio import SocketIO, emit
 from flask_cors import CORS
 
@@ -15,11 +14,10 @@ app = Flask(__name__)
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
-# stemmer = MPStemmer()
-intents = json.loads(open('intents.json', 'r', encoding='utf-8').read())
-
-words = []
-classes = []
+model = load_model('selu/selu_nadam.h5')
+intents = json.loads(open('answers.json', 'r', encoding='utf-8').read())
+words = [i.replace('\n', '') for i in open('words.txt', 'r').readlines()]
+classes = [i.replace('\n', '') for i in open('classes.txt', 'r').readlines()]
 stopword_list = [i.replace('\n', '') for i in open('stopwords.txt', 'r').readlines()]
 
 def stopword_kalimat(str):
@@ -28,22 +26,6 @@ def stopword_kalimat(str):
         if _ not in stopword_list:
             result += _ + " "
     return result[:-1]
-
-for intent in intents['intents']: # PARSING
-    for pattern in intent['patterns']:
-        pattern = pattern.translate(str.maketrans({_: ' ' for _ in string.punctuation})) # SPECIAL CHARACTERS REMOVAL
-        pattern = pattern.lower().strip() # CASE FOLDING
-        # pattern = stemmer.stem_kalimat(pattern) # STEMMING
-        pattern = stopword_kalimat(pattern) # STOPWORDS REMOVAL
-        word_list = nltk.word_tokenize(pattern) # TOKENIZING
-        words.extend(word_list)
-        if intent['tag'] not in classes:
-            classes.append(intent['tag'])
-
-words = sorted(set(words))
-classes = sorted(set(classes))
-
-model = load_model('selu/selu_nadam.h5')
 
 def clean_up_sentence(sentence):
     sentence = sentence.translate(str.maketrans({_: ' ' for _ in string.punctuation})) # SPECIAL CHARACTERS REMOVAL
@@ -66,19 +48,16 @@ def predict_class(sentence):
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]))[0]
     ERROR_THRESHOLD = 0.25
-    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-
-    results.sort(key=lambda x: x[1], reverse=True)
-    return_list = []
-    for r in results:
-        return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
-    return return_list
+    result = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    result.sort(key=lambda x: x[1], reverse=True)
+    return result
 
 def get_response(intents_list, intents_json):
-    tag = intents_list[0]['intent']
-    if (intents_list[0]['intent'] == 'salam_pembuka' or intents_list[0]['intent'] == 'salam_penutup') and len(intents_list) > 1:
-        tag = intents_list[1]['intent']
-    list_of_intents = intents_json['intents']
+    tag = classes[intents_list[0][0]]
+    if (tag == 'salam_pembuka' or tag == 'salam_penutup') and len(intents_list) > 1:
+        tag = classes[intents_list[1][0]]
+    list_of_intents = intents_json['answers']
+    result = ""
     for i in list_of_intents:
         if i['tag'] == tag:
             result = i['responses'][0]
@@ -89,9 +68,6 @@ def get_response(intents_list, intents_json):
 def process_text(text):
     ints = predict_class(text)
     response = get_response(ints, intents)
-    print(text)
-    print(ints)
-    print(response)
     emit('response_text', response)
 
 

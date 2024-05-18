@@ -4,6 +4,8 @@ import numpy as np
 import nltk
 # from mpstemmer import MPStemmer
 import string
+import tensorflow as tf
+import tensorflowjs as tfjs
 
 # stemmer = MPStemmer()
 stopword_list = [i.replace('\n', '') for i in open('stopwords.txt', 'r').readlines()]
@@ -37,3 +39,6 @@ print("BEFORE IS_DUPLICATE IS SET")
 print(len(is_duplicate))
 print("AFTER IS_DUPLICATE IS SET")
 print(len(set(is_duplicate)))
+
+model = tf.keras.models.load_model("selu/selu_nadam.h5")
+tfjs.converters.save_keras_model(model, "selu_nadam_tfjs")
