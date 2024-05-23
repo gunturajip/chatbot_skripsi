@@ -7,7 +7,7 @@ from keras.layers import Dense
 from keras.models import Sequential
 from sklearn.model_selection import train_test_split
 import os
-# from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import f1_score, precision_score, recall_score
 
 import random
 import json
@@ -120,10 +120,26 @@ for act in ["sigmoid", "hardsigmoid", "tanh", "softmax", "softsign", "relu", "so
                         epochs=100, batch_size=5, verbose=1,
                         validation_data=(X_val, y_val))
 
+        y_pred = model.predict(X_val).tolist()
+
+        y_val_new = []
+        for i in range(len(y_val)):
+            y_val_new += [y_val[i].index(max(y_val[i]))]
+        y_pred_new = []
+        for i in range(len(y_pred)):
+            y_pred_new += [y_pred[i].index(max(y_pred[i]))]
+
+        precision = precision_score(y_val_new, y_pred_new , average="macro")
+        recall = recall_score(y_val_new, y_pred_new , average="macro")
+        f1 = f1_score(y_val_new, y_pred_new , average="macro")
+
         plt.plot(hist.history['accuracy'], label = "100-th Train Accuracy (" + str(hist.history['accuracy'][99]) + ")")
         plt.plot(hist.history['val_accuracy'], label = "100-th Val Accuracy (" + str(hist.history['val_accuracy'][99]) + ")")
         plt.plot(hist.history['loss'], label = "100-th Train Loss (" + str(hist.history['loss'][99]) + ")")
         plt.plot(hist.history['val_loss'], label = "100-th Val Loss (" + str(hist.history['val_loss'][99]) + ")")
+        plt.plot([], [], alpha=0, label="Precision (" + str(precision) + ")")
+        plt.plot([], [], alpha=0, label="Recall (" + str(recall) + ")")
+        plt.plot([], [], alpha=0, label="F1-score (" + str(f1) + ")")
         plt.title(model_name)
         plt.ylabel("metrics")
         plt.xlabel("epochs")

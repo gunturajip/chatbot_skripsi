@@ -6,6 +6,7 @@ import nltk
 import string
 import tensorflow as tf
 import tensorflowjs as tfjs
+from sklearn.metrics import classification_report, confusion_matrix
 
 # stemmer = MPStemmer()
 stopword_list = [i.replace('\n', '') for i in open('stopwords.txt', 'r').readlines()]
@@ -42,3 +43,8 @@ print(len(set(is_duplicate)))
 
 model = tf.keras.models.load_model("selu/selu_nadam.h5")
 tfjs.converters.save_keras_model(model, "selu_nadam_tfjs")
+
+y_true = [0, 1, 2, 2, 2, 3]
+y_pred = [0, 0, 2, 2, 1, 3]
+target_names = ['class 0', 'class 1', 'class 2', 'class 3']
+print(classification_report(y_true, y_pred, target_names=target_names))
