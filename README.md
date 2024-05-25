@@ -2,7 +2,7 @@ FOR PURE LARAVEL CHATBOT EXPERIMENTAL (TFJS CDNs):
 (PHP 8.1)
 
 - PREREQUISITES:
-  - `selu_nadam`
+  - `relu_sgd`
   - `index_js.html`
   - `chatbot_js.js`
   - `chatbot.css`
