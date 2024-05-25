@@ -98,10 +98,9 @@ optimizers = {
     "_adamax": Adamax(),
     "_nadam": Nadam()
 }
-for act in ["sigmoid", "hardsigmoid", "tanh", "softmax", "softsign", "relu", "softplus", "elu", "selu", "swish"]:
+for act in activations.keys():
     os.mkdir(act)
-
-    for opt in ["_sgd", "_rmsprop", "_adagrad", "_adadelta", "_adam", "_adamax", "_nadam"]:
+    for opt in optimizers.keys():
         if opt in optimizers:
             model_name = act + opt
 
@@ -127,7 +126,6 @@ for act in ["sigmoid", "hardsigmoid", "tanh", "softmax", "softsign", "relu", "so
         precision = precision_score(y_val_new, y_pred_new , average="macro")
         recall = recall_score(y_val_new, y_pred_new , average="macro")
         f1 = f1_score(y_val_new, y_pred_new , average="macro")
-
         plt.plot(hist.history['accuracy'], label = "100-th Train Accuracy (" + str(hist.history['accuracy'][99]) + ")")
         plt.plot(hist.history['val_accuracy'], label = "100-th Val Accuracy (" + str(hist.history['val_accuracy'][99]) + ")")
         plt.plot(hist.history['loss'], label = "100-th Train Loss (" + str(hist.history['loss'][99]) + ")")
