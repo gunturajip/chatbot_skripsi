@@ -84,7 +84,7 @@ const handleChat = async () => {
 
         async function predict_class() {
             const input = await prepare();
-            const modelPath = `${window.location.origin}/selu/selu_nadam/model.json`;
+            const modelPath = `${window.location.origin}/chatbot/relu_sgd/model.json`;
             const model = await tf.loadLayersModel(modelPath);
             const prediction = await model.predict(tf.tensor(input, [1, 461])).data();
             const probThreshold = 0.25;
