@@ -104,7 +104,6 @@ for act in ["sigmoid", "hardsigmoid", "tanh", "softmax", "softsign", "relu", "so
     for opt in ["_sgd", "_rmsprop", "_adagrad", "_adadelta", "_adam", "_adamax", "_nadam"]:
         if opt in optimizers:
             model_name = act + opt
-        print(model_name)
 
         model = Sequential()
         model.add(Dense(8, input_shape=(len(X_train[0]),), activation=activations[act]))
@@ -112,23 +111,19 @@ for act in ["sigmoid", "hardsigmoid", "tanh", "softmax", "softsign", "relu", "so
         model.add(Dense(12, activation=activations[act]))
         model.add(Dense(12, activation=activations[act]))
         model.add(Dense(len(y_train[0]), activation=softmax))
-
         model.compile(loss=categorical_crossentropy,
                     optimizer=optimizers[opt], metrics=["accuracy"])
-
         hist = model.fit(np.array(X_train), np.array(y_train),
                         epochs=100, batch_size=5, verbose=1,
                         validation_data=(X_val, y_val))
 
         y_pred = model.predict(X_val).tolist()
-
         y_val_new = []
         for i in range(len(y_val)):
             y_val_new += [y_val[i].index(max(y_val[i]))]
         y_pred_new = []
         for i in range(len(y_pred)):
             y_pred_new += [y_pred[i].index(max(y_pred[i]))]
-
         precision = precision_score(y_val_new, y_pred_new , average="macro")
         recall = recall_score(y_val_new, y_pred_new , average="macro")
         f1 = f1_score(y_val_new, y_pred_new , average="macro")
@@ -146,6 +141,7 @@ for act in ["sigmoid", "hardsigmoid", "tanh", "softmax", "softsign", "relu", "so
         plt.legend()
         plt.savefig(os.sep.join([model_name.split("_")[0], model_name + ".png"]))
         plt.close()
+
         model.save(os.sep.join([model_name.split("_")[0], model_name + ".h5"]), hist)
         model = tf.keras.models.load_model(os.sep.join([model_name.split("_")[0], model_name + ".h5"]))
         tfjs.converters.save_keras_model(model, os.sep.join([model_name.split("_")[0], model_name]))
