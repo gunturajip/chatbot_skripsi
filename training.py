@@ -1,4 +1,3 @@
-import tensorflow as tf
 import tensorflowjs as tfjs
 from keras.optimizers import SGD, RMSprop, Adagrad, Adadelta, Adam, Adamax, Nadam
 from keras.activations import sigmoid, hard_sigmoid, tanh, softmax, softsign, relu, softplus, elu, selu, swish
@@ -140,8 +139,7 @@ for act in activations.keys():
         plt.savefig(os.sep.join([model_name.split("_")[0], model_name + ".png"]))
         plt.close()
 
-        model.save(os.sep.join([model_name.split("_")[0], model_name + ".h5"]), hist)
-        model = tf.keras.models.load_model(os.sep.join([model_name.split("_")[0], model_name + ".h5"]))
+        # model.save(os.sep.join([model_name.split("_")[0], model_name + ".h5"]), hist)
         tfjs.converters.save_keras_model(model, os.sep.join([model_name.split("_")[0], model_name]))
 
 print('done')
