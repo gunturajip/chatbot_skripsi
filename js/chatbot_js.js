@@ -14,15 +14,15 @@ let classes;
 let model;
 
 window.onload = async () => {
-    answers = await fetch(`${window.location.origin}/answers.json`)
+    answers = await fetch(`${window.location.origin}/chatbot/answers.json`)
         .then((response) => response.json());
-    stopwords = await fetch(`${window.location.origin}/stopwords.txt`)
+    stopwords = await fetch(`${window.location.origin}/chatbot/stopwords.txt`)
         .then((response) => response.text())
         .then((text) => text.trim().split('\n'));
-    words = await fetch(`${window.location.origin}/words.txt`)
+    words = await fetch(`${window.location.origin}/chatbot/words.txt`)
         .then((response) => response.text())
         .then((text) => text.trim().split('\r\n'));
-    classes = await fetch(`${window.location.origin}/classes.txt`)
+    classes = await fetch(`${window.location.origin}/chatbot/classes.txt`)
         .then((response) => response.text())
         .then((text) => text.trim().split('\r\n'));
     model = await tf.loadLayersModel(`${window.location.origin}/chatbot/relu_sgd/model.json`);
