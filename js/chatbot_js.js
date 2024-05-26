@@ -7,6 +7,26 @@ const inputInitHeight = chatInput.scrollHeight;
 
 let userMessage = null; // Variable to store user's message
 let conversationCount = 0;
+let answers;
+let stopwords;
+let words;
+let classes;
+let model;
+
+window.onload = async () => {
+    answers = await fetch(`${window.location.origin}/answers.json`)
+        .then((response) => response.json());
+    stopwords = await fetch(`${window.location.origin}/stopwords.txt`)
+        .then((response) => response.text())
+        .then((text) => text.trim().split('\n'));
+    words = await fetch(`${window.location.origin}/words.txt`)
+        .then((response) => response.text())
+        .then((text) => text.trim().split('\r\n'));
+    classes = await fetch(`${window.location.origin}/classes.txt`)
+        .then((response) => response.text())
+        .then((text) => text.trim().split('\r\n'));
+    model = await tf.loadLayersModel(`${window.location.origin}/chatbot/relu_sgd/model.json`);
+}
 
 const createChatLi = (message, className, currentMillis) => {
     // Create a chat <li> element with passed message and className
@@ -14,7 +34,7 @@ const createChatLi = (message, className, currentMillis) => {
     chatLi.classList.add("chat", `${className}`);
     let chatContent = className === "outgoing" ? `<p></p>` : `<span class="material-symbols-outlined">smart_toy</span><p></p>`;
     chatLi.innerHTML = chatContent;
-    chatLi.querySelector("p").textContent = message;
+    chatLi.querySelector("p").innerHTML = message;
     chatLi.querySelector("p").classList.add(currentMillis);
     return chatLi; // return chat <li> element
 }
@@ -70,22 +90,12 @@ const handleChat = async () => {
         }
 
         async function prepare() {
-            let stopwords = await fetch(`${window.location.origin}/stopwords.txt`)
-                .then((response) => response.text())
-                .then((text) => text.trim().split('\n'));
-
-            let words = await fetch(`${window.location.origin}/words.txt`)
-                .then((response) => response.text())
-                .then((text) => text.trim().split('\r\n'));
-
             let input = await bag_of_words(userMessage, stopwords, words);
             return input
         }
 
         async function predict_class() {
             const input = await prepare();
-            const modelPath = `${window.location.origin}/chatbot/relu_sgd/model.json`;
-            const model = await tf.loadLayersModel(modelPath);
             const prediction = await model.predict(tf.tensor(input, [1, 461])).data();
             const probThreshold = 0.25;
             let result = [];
@@ -97,13 +107,6 @@ const handleChat = async () => {
         }
 
         async function get_response(intents_list) {
-            let classes = await fetch(`${window.location.origin}/classes.txt`)
-                .then((response) => response.text())
-                .then((text) => text.trim().split('\r\n'));
-
-            let answers = await fetch(`${window.location.origin}/answers.json`)
-                .then((response) => response.json());
-
             let tag = classes[intents_list[0][0]];
             if ((tag === "salam_pembuka" || tag === "salam_penutup") && intents_list.length > 1) {
                 tag = classes[intents_list[1][0]];
@@ -123,15 +126,15 @@ const handleChat = async () => {
         const response = await get_response(prediction);
 
         if (response !== null) {
-            incomingChatLi.querySelector("p." + incomingCurrentMillis).textContent = response;
+            incomingChatLi.querySelector("p." + incomingCurrentMillis).innerHTML = response;
             conversationCount++;
         } else {
             // Handle the case when the response is null (timeout occurred)
-            incomingChatLi.querySelector("p." + incomingCurrentMillis).textContent = "Response timeout";
+            incomingChatLi.querySelector("p." + incomingCurrentMillis).innerHTML = "Response timeout";
             conversationCount++;
         }
     } catch (error) {
-        incomingChatLi.querySelector("p." + incomingCurrentMillis).textContent = "Ups! Ada kendala teknis. Mohon mencoba kembali.";
+        incomingChatLi.querySelector("p." + incomingCurrentMillis).innerHTML = "Ups! Ada kendala teknis. Mohon mencoba kembali.";
         conversationCount++;
     }
 }
