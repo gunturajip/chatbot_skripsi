@@ -1,0 +1,45 @@
+1. Fakultas Kedokteran
+	Pendidikan Dokter
+	Profesi Dokter
+
+2. Fakultas Ekonomi & Bisnis
+	Ekonomi Pembangunan
+	Manajemen 8
+	Akuntansi 1
+	Kewirausahaan
+
+3. Fakultas Teknik
+	Teknik Industri 1
+	Teknik Kimia
+	Teknologi Pangan
+	Teknik Sipil
+	Teknik Lingkungan
+	Teknik Mesin
+	Fisika
+
+4. Fakultas Ilmu Komputer
+	Teknik Informatika 13
+	Sistem Informasi 40
+	Sains Data
+	Bisnis Digital
+
+5. Fakultas Ilmu Sosial & Politik
+	Administrasi Negara 1
+	Administrasi Bisnis 1
+	Ilmu Komunikasi 1
+	Hubungan Internasional
+	Pariwisata
+	Linguistik Indonesia
+	D4 – Bahasa Inggris
+
+6. Fakultas Arsitektur & Desain
+	Arsitektur
+	Desain Komunikasi Visual 2
+	Desain Interior
+
+7. Fakultas Pertanian
+	Agroteknologi 2
+	Agribisnis 2
+
+8. Fakultas Hukum
+	Ilmu Hukum 3

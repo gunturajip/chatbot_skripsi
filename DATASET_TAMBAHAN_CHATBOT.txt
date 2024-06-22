@@ -1,0 +1,121 @@
+- CV -> curriculum vitae
+- AI -> artificial intelligence
+- Magang -> internship
+- Wawancara -> interview
+- PKL -> magang
+- S1 -> fresh graduate
+- S2 -> magister
+- S3 -> doktor
+- S-1 -> fresh graduate
+- S-2 -> magister
+- S-3 -> doktor
+- Tahun Jeda -> gap year
+- WFH -> work from home
+- Nego Gaji -> negosiasi gaji
+- Tawaran Kerja -> job offering
+- Penawaran Kerja -> job offering
+- Portfolio -> portofolio
+- Chat GPT -> chatgpt
+- Kredibilitas -> personal branding
+- Reputasi -> personal branding
+- Jaringan -> networking
+- Kenalan -> networking
+- Penelitian -> riset
+- Surat Lamaran -> cover letter
+- Lamaran -> cover letter
+- Kerja Tim -> teamwork
+- Kerjasama Tim -> teamwork
+- Kerja Sama Tim -> teamwork
+- Teknologi -> technology
+- Profesionalisme -> professionalism
+- Kesetaraan -> equity and inclusion
+- Inklusi -> equity and inclusion
+- Kesetaraan dan Inklusi -> equity and inclusion
+- Kepemimpinan -> leadership
+- kritis -> critical thinking
+- berpikir kritis -> critical thinking
+- pikiran kritis -> critical thinking
+- Komunikasi -> communication
+- Pengembangan Diri -> career and self-development
+- UPN "Veteran" Jawa Timur -> upnvjt
+- UPN Jawa Timur -> upnvjt
+- UPNJATIM -> upnvjt
+- UPN Veteran Jawa Timur -> upnvjt
+- UPN JATIM -> upnvjt
+- Nilai-Nilai -> passion
+- Sarjana -> fresh graduate
+- Freshgraduate -> fresh graduate
+- Freshgraduates -> fresh graduate
+- Fresh Graduates -> fresh graduate
+- Preferensi -> passion
+- Alumni -> fresh graduate
+- Pemberdayaan -> sosialisasi
+- Merintis Usaha -> wirausaha
+- Wira Usaha -> wirausaha
+- Memulai Usaha -> wirausaha
+- Mendirikan Usaha -> wirausaha
+- Membangun Usaha -> wirausaha
+- Acara -> job fair
+- Kemampuan -> kompetensi kerja
+- Minat -> passion
+- Bakat -> passion
+- Lamaran Kerja -> lowongan kerja
+- lulusan -> profil lulusan
+- Menegosiasikan -> negosiasi gaji
+- Gaji -> negosiasi gaji
+- Loker -> lowongan kerja
+- Keterampilan -> kompetensi kerja
+- Channel -> networking
+- Koneksi -> networking
+- Mengembangkan -> pengembangan
+- Melamar -> fresh graduate
+- Universitas -> lowongan kerja
+- Mempersiapkan Diri -> fresh graduate
+- Prospek -> lowongan kerja
+- Kerja Dari Rumah -> work from home
+
+1. Profil Lulusan + Perusahaan Pendidikan Dokter
+2. Profil Lulusan + Perusahaan Profesi Dokter
+3. Profil Lulusan + Perusahaan Ekonomi Pembangunan
+4. Profil Lulusan + Perusahaan Manajemen
+5. Profil Lulusan + Perusahaan Akuntansi
+6. Profil Lulusan + Perusahaan Kewirausahaan
+7. Profil Lulusan + Perusahaan Teknik Industri
+8. Profil Lulusan + Perusahaan Teknik Kimia
+9. Profil Lulusan + Perusahaan Teknologi Pangan
+10. Profil Lulusan + Perusahaan Teknik Sipil
+11. Profil Lulusan + Perusahaan Teknik Lingkungan
+12. Profil Lulusan + Perusahaan Teknik Mesin
+13. Profil Lulusan + Perusahaan Fisika
+14. Profil Lulusan + Perusahaan Teknik Informatika
+15. Profil Lulusan + Perusahaan Sistem Informasi
+16. Profil Lulusan + Perusahaan Sains Data
+17. Profil Lulusan + Perusahaan Bisnis Digital
+18. Profil Lulusan + Perusahaan Administrasi Negara
+19. Profil Lulusan + Perusahaan Administrasi Bisnis
+20. Profil Lulusan + Perusahaan Ilmu Komunikasi
+21. Profil Lulusan + Perusahaan Hubungan Internasional
+22. Profil Lulusan + Perusahaan Pariwisata
+23. Profil Lulusan + Perusahaan Linguistik Indonesia
+24. Profil Lulusan + Perusahaan D4 – Bahasa Inggris
+25. Profil Lulusan + Perusahaan Arsitektur
+26. Profil Lulusan + Perusahaan Desain Komunikasi Visual
+27. Profil Lulusan + Perusahaan Desain Interior
+28. Profil Lulusan + Perusahaan Agroteknologi
+29. Profil Lulusan + Perusahaan Agribisnis
+30. Profil Lulusan + Perusahaan Ilmu Hukum
+31. Karir Luar Negeri
+32. Mahasiswa Kupu-Kupu
+33. Ancaman AI
+34. Magister
+35. Doktor
+36. Skill Keuangan
+37. Sosialisasi UPA-PKK
+38. Wirausaha
+39. Fokus Karir
+40. Lapangan Kerja
+41. Job Fair
+42. Peluang Kerja
+43. Lowongan Kerja
+44. Programming
+45. Sertifikasi
