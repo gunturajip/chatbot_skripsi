@@ -1486,125 +1486,169 @@
             "tag": "profil_lulusan_perusahaan_teknik_industri",
             "patterns": [],
             "responses": [
-                "Lulusan Teknik Industri dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Manajer Produksi, 2. Cost Control Engineer, 3. Spesialis Rantai Pasok, 4. Quality Control, 5. Industrial Engineer, 6. Sales Engineer, 7. Spesialis Logistik, 8. Manajer Proyek. Adapun beberapa instansi atau perusahaan mitra Teknik Industri UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Laksana Bus. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Industri UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Industri di Indonesia."
+                "Lulusan Teknik Industri dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Manajer Produksi, 2. Cost Control Engineer, 3. Spesialis Rantai Pasok, 4. Quality Control, 5. Industrial Engineer, 6. Sales Engineer, 7. Spesialis Logistik, 8. Manajer Proyek. Adapun beberapa instansi atau perusahaan mitra Teknik Industri UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Laksana Bus, 2. PT Petrokimia Gresik. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Industri UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Industri di Indonesia."
             ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknik_kimia",
             "patterns": [],
             "responses": [
-                "Lulusan Teknik Kimia dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. . Adapun beberapa instansi atau perusahaan mitra Teknik Kimia UPN \"Veteran\" Jawa Timur, di antaranya: 1. Pusat Pengembangan Sumber Data Manusia Minyak dan Gas Bumi, 2. PTPN X, 3. PT Energi Agro Nusantara, 4. PG Rejo Agung Baru Madiun, 5. BRIN, 6. PT Mitra Hijau, 7. PT Garam, 8. PT Madu Lingga Raharja, 9. PT Pertamina RU IV Balongan. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Kimia UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Kimia di Indonesia."
+                "Lulusan Teknik Kimia dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Analis Laboratorium, 2. Quality Control Industri Kimia, 3. Pengusaha Bahan Kimia, 4. Dosen, 5. Peneliti, 6. Operator Proses Industri Kimia. Adapun beberapa instansi atau perusahaan mitra Teknik Kimia UPN \"Veteran\" Jawa Timur, di antaranya: 1. Pusat Pengembangan Sumber Data Manusia Minyak dan Gas Bumi, 2. PTPN X, 3. PT Energi Agro Nusantara, 4. PG Rejo Agung Baru Madiun, 5. BRIN, 6. PT Mitra Hijau, 7. PT Garam, 8. PT Madu Lingga Raharja, 9. PT Pertamina RU IV Balongan, 10. PT Petrokimia Gresik. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Kimia UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Kimia di Indonesia."
             ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknologi_pangan",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Teknologi Pangan dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Manajer Operasional dan Logistik, 2. Manajer Produk, 3. Manajer Pengendalian Mutu Produk dan Kesehatan, 4. Market Researcher, 5. Peneliti Bioteknologi, 6. Ahli Diet, 7. Quality Control Industri Pangan, 8. Quality Assurance Industri Pangan, 9. Dosen, 10. Spesialis Teknologi Pangan. Adapun beberapa instansi atau perusahaan mitra Teknologi Pangan UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Hyang Reksa Karya Indonesia, 2. PT Samudra Mas Nusantara, 3. PT Agung Bumi Agro, 4. PP Batus Surur, 5. UD Maharani Dwi Bayu, 6. PT Petrokimia Gresik. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknologi Pangan UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknologi Pangan di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknik_sipil",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Teknik Sipil dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Tenaga Ahli Bidang Sipil, 2. Manajer Bidang Sipil, 3. Konsultan Bidang Sipil, 4. Kotraktor Bidang Sipil, 5. Pegawai Negeri Sipil, 6. Manajer Konstruksi, 7. Tenaga Ahli Bangunan Sipil. Adapun beberapa instansi atau perusahaan mitra Teknik Sipil UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Petrokimia Gresik. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Sipil UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Sipil di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknik_lingkungan",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Teknik Lingkungan dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Tenaga Ahli Bidang Teknik Lingkungan, 2. Dosen, 3. Peneliti, 4. Pegawai Negeri Sipil. Adapun beberapa instansi atau perusahaan mitra Teknik Lingkungan UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Sucofindo, 2. PT Mitra Hijau Indonesia, 3. Dinas Lingkungan Hidup Provinsi Jawa Timur, 4. Dinas PUPR Lamongan, 5. PT Hasidha Persada, 6. PT Gapura Liqua Solutions, 7. PT Angkasa Pura Kupang, 8. PT Petrokimia Gresik. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Lingkungan UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Lingkungan di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknik_mesin",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Teknik Mesin dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. . Adapun beberapa instansi atau perusahaan mitra Teknik Mesin UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Centra Teknologi Indonesia, 2. PT United Tractors Semen Gresik, 3. PT Petrokimia Gresik. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Mesin UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Mesin di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_fisika",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Fisika dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Peneliti Bidang Fisika, 2. Dosen, 3. Pegawai Negeri Sipil, 4. Tenaga Ahli Laboratorium Bidang Fisika. Adapun beberapa instansi atau perusahaan mitra Fisika UPN \"Veteran\" Jawa Timur, di antaranya: 1. Asia University, 2. Chienkuo University, 3. PT Petrokimia Gresik. Ini dilakukan dengan harapan para mahasiswa maupun alumni Fisika UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Fisika di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknik_informatika",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Teknik Informatika dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. System Analyst, 2. Software Engineer, 3. Network Administrator, 4. Information Security, 5. Data Analyst, 6. Data Scientist, 7. UI/UX Designer, 8. Konsultan IT, 9. Game Developer, 10. Web Developer, 11. Database Administrator, 12. AI Engineer, 13. Frontend Developer, 14. Backend Developer, 15. Fullstack Developer, 16. Dosen, 17. Peneliti, 18. Hardware Engineer, 19. IoT Developer. Adapun beberapa instansi atau perusahaan mitra Teknik Informatika UPN \"Veteran\" Jawa Timur, di antaranya dapat dilihat pada <a href=\"https://fasilkom.upnjatim.ac.id/mitra-kerjasama/\">link berikut</a>. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Informatika UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Informatika di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_sistem_informasi",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Sistem Informasi dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. System Analyst, 2. Software Engineer, 3. Network Administrator, 4. Information Security, 5. Data Analyst, 6. Data Scientist, 7. UI/UX Designer, 8. Konsultan IT, 9. Game Developer, 10. Web Developer, 11. Database Administrator, 12. AI Engineer, 13. Frontend Developer, 14. Backend Developer, 15. Fullstack Developer, 16. Dosen, 17. Peneliti, 18. Software Quality Assurance Engineer, 19. Technical Writer. Adapun beberapa instansi atau perusahaan mitra Sistem Informasi UPN \"Veteran\" Jawa Timur, di antaranya dapat dilihat pada <a href=\"https://fasilkom.upnjatim.ac.id/mitra-kerjasama/\">link berikut</a>. Ini dilakukan dengan harapan para mahasiswa maupun alumni Sistem Informasi UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Sistem Informasi di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_sains_data",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Sains Data dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Data Analyst, 2. Data Scientist, 3. Data Engineer, 4. Intelligent System Developer, 5. Machine Learning Engineer, 6. Dosen, 7. Peneliti. Adapun beberapa instansi atau perusahaan mitra Sains Data UPN \"Veteran\" Jawa Timur, di antaranya dapat dilihat pada <a href=\"https://fasilkom.upnjatim.ac.id/mitra-kerjasama/\">link berikut</a>. Ini dilakukan dengan harapan para mahasiswa maupun alumni Sains Data UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Sains Data di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_bisnis_digital",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Bisnis Digital dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Dosen, 2. Peneliti, 3. E-Commerce Manager, 4. Digital Marketing Specialist, 5. Social Media Strategist, 6. Data Analyst, 7. Content Marketing Specialist, 8. Digital Product Manager, 9. E-Commerce Analyst, 10. Digital Entrepreneur. Adapun beberapa instansi atau perusahaan mitra Bisnis Digital UPN \"Veteran\" Jawa Timur, di antaranya dapat dilihat pada <a href=\"https://fasilkom.upnjatim.ac.id/mitra-kerjasama/\">link berikut</a>. Ini dilakukan dengan harapan para mahasiswa maupun alumni Bisnis Digital UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Bisnis Digital di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_administrasi_negara",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Administrasi Negara dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Product Manager, 2. Human Resource Development, 3. Konsultan Pajak, 4. Sekretaris, 5. Market Researcher, 6. Tenaga Tata Usaha, 7. Dosen, 8. Peneliti. Adapun beberapa instansi atau perusahaan mitra Administrasi Negara UPN \"Veteran\" Jawa Timur, di antaranya: 1. Komisi Pemilihan Umum Provinsi Jawa Timur, 2. Dinas Kependudukan Kabupaten Sidoarjo, 3. Badan Pengawas Pemilihan Umum Provinsi Jawa Timur, 4. Kantor Pelayanan Perbendaharaan Negara Wilayah 1, 5. Badan Riset dan Inovasi Provinsi Jawa Timur, 6. Dispendukcapil Kabupaten Sidoarjo, 7. Dinas Sosial Provinsi Jawa Timur, 8. Bappeda Kabupaten Sidoarjo, 9. Biro Umum dan Rumah Tangga Kantor Sekretariat Daerah Provinsi Jawa Timur, 10. PT Pasar Turi Baru, 11. Dinas Sosial Kabupaten Gresik, 12. PT Jatim Graha Utama, 13. Dinas Perpustakaan dan Kearsipan Provinsi Jawa Timur. Ini dilakukan dengan harapan para mahasiswa maupun alumni Administrasi Negara UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Administrasi Negara di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_administrasi_bisnis",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Administrasi Bisnis dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Tata Usaha (Admin), Bagian Penjualan (Sales), Product Manager, Bagian Personalia (HRD), Konsultan Pajak, Sekretaris, Market Researcher, Wirausaha (Entrepreuner), Bagian Keuangan (Finance). Adapun beberapa instansi atau perusahaan mitra Administrasi Bisnis UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Angga Cahaya Dewata, 2. PT Pelindo (Persero) Bali, 3. 100 Sunset Road Hotel Bali, 4. Secret Garden (Herborist), 5. Taman Hiburan Pantai Kenjeran, 6. BRIN. Ini dilakukan dengan harapan para mahasiswa maupun alumni Administrasi Bisnis UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Administrasi Bisnis di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_ilmu_komunikasi",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Ilmu Komunikasi dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Product Manager, 2. Bagian Penjualan dan Pelayanan (Customer Service), 3. Penyiar, 4. Video Editor, 5. Account Executive, 6. Public Relations (Humas), 7. Jurnalis (Reporter), 8. Produser TV atau Radio, 9. Content Creator, 10. Telemarketer, 11. Penulis (Content Writer), 12. Editor. Adapun beberapa instansi atau perusahaan mitra Ilmu Komunikasi UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Crea Cipta Cemerlang, 2. PT Kreasi Cipta Buana, 3. PT Riliv Psikologi Indonesia, 4. PT Mahaghora. Ini dilakukan dengan harapan para mahasiswa maupun alumni Ilmu Komunikasi UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Ilmu Komunikasi di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_hubungan_internasional",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Hubungan Internasional dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Eksportir, 2. Diplomat, 3. Bagian Tata Usaha (Atase) Perdagangan Luar Negeri, 4. Konsultan Pendidikan, 5. Penyiar, 6. Jurnalis (Reporter), 7. Editor, 8. System Analyst, 9. Arsiparis. Adapun beberapa instansi atau perusahaan mitra Hubungan Internasional UPN \"Veteran\" Jawa Timur, di antaranya: 1. Fakulti Undang-Undang dan Hubungan Antar Bangsa (FUHA) Universiti Zainal Abidin Terengganu, Malaysia, 2. College of Liberal Art De La Salle University, Philippines, 3. Research Institute for Languages and Cultures of Asia (RILCA) Mahidol University, Thailand, 4. School of Social Sciences Ateneo de Manila University Philippines. Ini dilakukan dengan harapan para mahasiswa maupun alumni Hubungan Internasional UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Hubungan Internasional di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_pariwisata",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Pariwisata dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Pengelola Destinasi Ekowisata, 2. Tenaga Ahli Ekowisata, 3. Birokrat, 4. Akademisi, 5. Wirausaha Wisata. Adapun beberapa instansi atau perusahaan mitra Pariwisata UPN \"Veteran\" Jawa Timur, di antaranya: 1. Dinas Pariwisata Kota Batu, 2. Jatim Park Group, 3. Kampung Wisata Ekologi Temas, 4. Desa Wisata Pandanrejo, 5. Dinas Kebudayaan dan Pariwisata Kabupaten Bojonegoro, 6. Geosite Teksas Wonocolo, 7. Desa Wisata Kebangsaan Wonorejo. Ini dilakukan dengan harapan para mahasiswa maupun alumni Pariwisata UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Pariwisata di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_linguistik_indonesia",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Linguistik dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Ahli Bahasa, 2. Saksi Ahli Bahasa, 3. Tenaga Ahli Pengobatan Wicara, Afasia, Demensia, dan Disleksia, 4. Pengajar Linguistik, 5. Peneliti, 6. Penulis, 7. Editor/Penyunting Buku, 8. Jurnalis/Wartawan, 9. Presenter/Penyiar, 10. Sutradara, 11. Produser, 12. Aktor/Aktris, 13. Politikus, 14. Penerjemah Bahasa, 15. Wiraswasta. Adapun beberapa instansi atau perusahaan mitra Linguistik UPN \"Veteran\" Jawa Timur, di antaranya: 1. Graha Pena Jawa Pos, 2. Badan Bahasa Jakarta. Ini dilakukan dengan harapan para mahasiswa maupun alumni Linguistik UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Linguistik di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_bahasa_inggris",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Bahasa Inggris dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1.Pengajar Bahasa Inggris, 2. Penerjemah Bahasa Inggris, 3. Tourist Guide, 4. Edupreneur, 5. Penulis. Ini dilakukan dengan harapan para mahasiswa maupun alumni Bahasa Inggris UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Bahasa Inggris di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_arsitektur",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Arsitektur dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Arsitek, 2. Penilai Real Estate, 3. Bagian Perencanaan dan Pengembangan Real Estate, 4. Drafter, 5. Operator CAD (Computer-Aided-Design), 6. Sales Perusahaan Konstruksi, 7. Dosen, 8. Wirausaha (Entrepreuner). Adapun beberapa instansi atau perusahaan mitra Arsitektur UPN \"Veteran\" Jawa Timur, di antaranya: 1. Program Studi Arsitektur Universitas Warmadewa Bali, 2. Asrama Mahasiswa Nusantara. Ini dilakukan dengan harapan para mahasiswa maupun alumni Arsitektur UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Arsitektur di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_desain_komunikasi_visual",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Desain Komunikasi Visual dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. . Adapun beberapa instansi atau perusahaan mitra Desain Komunikasi Visual UPN \"Veteran\" Jawa Timur, di antaranya: 1. . Ini dilakukan dengan harapan para mahasiswa maupun alumni Desain Komunikasi Visual UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Desain Komunikasi Visual di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_desain_interior",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Desain Interior dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. . Adapun beberapa instansi atau perusahaan mitra Desain Interior UPN \"Veteran\" Jawa Timur, di antaranya: 1. . Ini dilakukan dengan harapan para mahasiswa maupun alumni Desain Interior UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Desain Interior di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_agroteknologi",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Agroteknologi dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. . Adapun beberapa instansi atau perusahaan mitra Agroteknologi UPN \"Veteran\" Jawa Timur, di antaranya: 1. . Ini dilakukan dengan harapan para mahasiswa maupun alumni Agroteknologi UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Agroteknologi di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_agribisnis",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Agribisnis dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. . Adapun beberapa instansi atau perusahaan mitra Agribisnis UPN \"Veteran\" Jawa Timur, di antaranya: 1. . Ini dilakukan dengan harapan para mahasiswa maupun alumni Agribisnis UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Agribisnis di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_ilmu_hukum",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Ilmu Hukum dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. . Adapun beberapa instansi atau perusahaan mitra Ilmu Hukum UPN \"Veteran\" Jawa Timur, di antaranya: 1. . Ini dilakukan dengan harapan para mahasiswa maupun alumni Ilmu Hukum UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Ilmu Hukum di Indonesia."
+            ]
         },
         {
             "tag": "karir_luar_negeri",
