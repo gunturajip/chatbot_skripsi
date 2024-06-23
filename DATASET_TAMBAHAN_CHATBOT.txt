@@ -81,7 +81,6 @@
 - Peluang Kerja -> lowongan kerja
 - Kerja Dari Rumah -> work from home
 - pmw -> wirausaha
-- kemampuan -> skill
 - UPN -> upnvjt
 - Pekerjaan -> kerja
 - Bekerja -> kerja

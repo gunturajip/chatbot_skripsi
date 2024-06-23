@@ -7,6 +7,7 @@ const inputInitHeight = chatInput.scrollHeight;
 
 let userMessage = null; // Variable to store user's message
 let conversationCount = 0;
+let helpers;
 let answers;
 let stopwords;
 let words;
@@ -14,6 +15,8 @@ let classes;
 let model;
 
 window.onload = async () => {
+    helpers = await fetch(`${window.location.origin}/chatbot/helpers.json`)
+        .then((response) => response.json());
     answers = await fetch(`${window.location.origin}/chatbot/answers.json`)
         .then((response) => response.json());
     stopwords = await fetch(`${window.location.origin}/chatbot/stopwords.txt`)
@@ -68,16 +71,20 @@ const handleChat = async () => {
             return result.trim();
         }
 
-        async function clean_up_sentence(sentence, stopwords) {
+        async function clean_up_sentence(sentence, stopwords, helpers) {
+            const regex = new RegExp(Object.keys(helpers).join('|'), 'gi');
             sentence = await sentence.replace(/[^\w\s]|_/g, " "); // SPECIAL CHARACTERS REMOVAL
             sentence = await sentence.toLowerCase().trim(); // CASE FOLDING
             sentence = await stopword_kalimat(sentence, stopwords); // STOPWORDS REMOVAL
+            sentence = await sentence.replace(regex, (matched) => {
+                return helpers[matched];
+            });
             sentence = await sentence.split(" "); // TOKENIZING
             return sentence
         }
 
-        async function bag_of_words(sentence, stopwords, words) {
-            const sentence_words = await clean_up_sentence(sentence, stopwords);
+        async function bag_of_words(sentence, stopwords, words, helpers) {
+            const sentence_words = await clean_up_sentence(sentence, stopwords, helpers);
             let bag = Array(461).fill(0);
             for (let w of sentence_words) {
                 for (let i = 0; i < 461; i++) {
@@ -90,7 +97,7 @@ const handleChat = async () => {
         }
 
         async function prepare() {
-            let input = await bag_of_words(userMessage, stopwords, words);
+            let input = await bag_of_words(userMessage, stopwords, words, helpers);
             return input
         }
 
