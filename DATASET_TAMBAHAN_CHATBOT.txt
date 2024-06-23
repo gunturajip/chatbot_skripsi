@@ -42,6 +42,8 @@
 - UPN Jawa Timur -> upnvjt
 - UPNJATIM -> upnvjt
 - UPN Veteran Jawa Timur -> upnvjt
+- UPN Veteran Jatim -> upnvjt
+- UPN "Veteran" Jatim -> upnvjt
 - UPN JATIM -> upnvjt
 - Nilai-Nilai -> passion
 - Sarjana -> fresh graduate
@@ -73,15 +75,14 @@
 - Koneksi -> networking
 - Mengembangkan -> pengembangan
 - Melamar -> fresh graduate
-- Universitas -> lowongan kerja
 - Mempersiapkan Diri -> fresh graduate
 - Prospek -> lowongan kerja
-- Lapangan -> lowongan kerja
-- Peluang -> lowongan kerja
 - Lapangan Kerja -> lowongan kerja
 - Peluang Kerja -> lowongan kerja
 - Kerja Dari Rumah -> work from home
 - pmw -> wirausaha
+- kemampuan -> skill
+- UPN -> upnvjt
 
 1. Profil Lulusan + Perusahaan Pendidikan Dokter
 2. Profil Lulusan + Perusahaan Profesi Dokter
