@@ -1,5 +1,6 @@
 - CV -> curriculum vitae
 - AI -> artificial intelligence
+- Kecerdasan Buatan -> artificial intelligence
 - Magang -> internship
 - Wawancara -> interview
 - PKL -> magang
@@ -47,6 +48,9 @@
 - Freshgraduate -> fresh graduate
 - Freshgraduates -> fresh graduate
 - Fresh Graduates -> fresh graduate
+- Kupu-Kupu -> fresh graduate
+- Kupu Kupu -> fresh graduate
+- KupuKupu -> fresh graduate
 - Preferensi -> passion
 - Alumni -> fresh graduate
 - Pemberdayaan -> sosialisasi
@@ -72,7 +76,12 @@
 - Universitas -> lowongan kerja
 - Mempersiapkan Diri -> fresh graduate
 - Prospek -> lowongan kerja
+- Lapangan -> lowongan kerja
+- Peluang -> lowongan kerja
+- Lapangan Kerja -> lowongan kerja
+- Peluang Kerja -> lowongan kerja
 - Kerja Dari Rumah -> work from home
+- pmw -> wirausaha
 
 1. Profil Lulusan + Perusahaan Pendidikan Dokter
 2. Profil Lulusan + Perusahaan Profesi Dokter
@@ -105,17 +114,14 @@
 29. Profil Lulusan + Perusahaan Agribisnis
 30. Profil Lulusan + Perusahaan Ilmu Hukum
 31. Karir Luar Negeri
-32. Mahasiswa Kupu-Kupu
-33. Ancaman AI
-34. Magister
-35. Doktor
-36. Skill Keuangan
-37. Sosialisasi UPA-PKK
-38. Wirausaha
-39. Fokus Karir
-40. Lapangan Kerja
-41. Job Fair
-42. Peluang Kerja
-43. Lowongan Kerja
-44. Programming
-45. Sertifikasi
+32. Ancaman AI
+33. Magister
+34. Doktor
+35. Skill Keuangan
+36. Sosialisasi UPA-PKK
+37. Wirausaha
+38. Fokus Karir
+39. Job Fair
+40. Lowongan Kerja
+41. Programming
+42. Sertifikasi
