@@ -1443,42 +1443,58 @@
         {
             "tag": "profil_lulusan_perusahaan_pendidikan_dokter",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Pendidikan Dokter dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Dokter Umum di Puskesmas atau Rumah Sakit, 2. Dokter Spesialis, 3. Dokter di Klinik Swasta, 4. Tenaga Medis di Instansi Pemerintah ,5. Praktik Dokter Pribadi, 6. Peneliti di Bidang Kesehatan, 7. Dosen, Manajemen Kesehatan, 8. Tenaga Medis di Organisasi Internasional, 9. Tenaga Kesehatan Lingkungan. Adapun beberapa instansi atau perusahaan mitra Pendidikan Dokter UPN \"Veteran\" Jawa Timur, di antaranya: 1. Rumah Sakit Satelit Surabaya, 2. Rumah Sakit Umum Daerah dr. Mohammad Saleh, 3. Rumah Sakit Umum Daerah Ar Rozy Probolinggo. Ini dilakukan dengan harapan para mahasiswa maupun alumni Pendidikan Dokter UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Pendidikan Dokter di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_profesi_dokter",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Profesi Dokter dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Dokter Umum di Puskesmas atau Rumah Sakit, 2. Dokter Spesialis, 3. Dokter di Klinik Swasta, 4. Tenaga Medis di Instansi Pemerintah ,5. Praktik Dokter Pribadi, 6. Peneliti di Bidang Kesehatan, 7. Dosen, Manajemen Kesehatan, 8. Tenaga Medis di Organisasi Internasional, 9. Tenaga Kesehatan Lingkungan. Adapun beberapa instansi atau perusahaan mitra Profesi Dokter UPN \"Veteran\" Jawa Timur, di antaranya: 1. Rumah Sakit Satelit Surabaya, 2. Rumah Sakit Umum Daerah dr. Mohammad Saleh, 3. Rumah Sakit Umum Daerah Ar Rozy Probolinggo. Ini dilakukan dengan harapan para mahasiswa maupun alumni Profesi Dokter UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Profesi Dokter di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_ekonomi_pembangunan",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Ekonomi Pembangunan dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Perencana Ekonomi, 2, Pegawai Negeri Sipil, 3. Peneliti Ekonomi, 4. Analis Keuangan, 5. Konsultan Ekonomi, 6. Ekonom Perusahaan, 7. Manajer Proyek, 8. Dosen, 9. Peneliti, 10. Ekonom Keuangan Sosial, 11. Ekonom di Organisasi Internasional, 12. Pengusaha, 13. Konsultan Bisnis. Adapun beberapa instansi atau perusahaan mitra Ekonomi Pembangunan UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Martina Berto, 2. PT Terminal Petikemas Surabaya, 3. Firs Brain, 4. Bappeko Surabaya, PT Bursa Efek Indonesia, 5. PT MNC Sekuritas. Ini dilakukan dengan harapan para mahasiswa maupun alumni Ekonomi Pembangunan UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Ekonomi Pembangunan di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_manajemen",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Manajemen dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Pegawai Negeri Sipil, 2. Manajer Proyek Pemerintah, 3. Manajer Bisnis, 4. Analis Bisnis, 5. Manajer Sumber Daya Manusia, 6. Manajer Pemasaran, 7. Manajer Keuangan, 8. Konsultan Manajemen, 9. Dosen, 10. Peneliti, 11. Manajer Kemasyarakatan, 12. Manajer di Organisasi Internasional, 13. Pengusaha, 14. Konsultan Bisnis, 15. Manajer Bank, 16. Analis Keuangan. Adapun beberapa instansi atau perusahaan mitra Manajemen UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Bank Negara Indonesia (Persero), Tbk, 2. PT Pertamina (Persero), 3. Bank Indonesia, 4. PT Soilens. Ini dilakukan dengan harapan para mahasiswa maupun alumni Manajemen UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Manajemen di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_akuntansi",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Akuntasi dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Pegawai Negeri Sipil, 2. Auditor Pemerintah, 3. Akuntan Pemerintah, 4. Akuntan Publik, 5. Akuntan Akuntasi, 6. Akuntan Keuangan, 7. Internal Auditor, 8. Konsultan Pajak, 9. Analis Kredit, 10. Manajer Risiko Keuangan, 11. Manajer Keuangan, 12. Dosen, 13. Peneliti, 14. Akuntan di Bidang Sosial Masyarakat, 15. Akuntan di Organisasi Internasional, 16. Pengusaha, 17. Konsultan Bisnis. Adapun beberapa instansi atau perusahaan mitra Akuntasi UPN \"Veteran\" Jawa Timur, di antaranya: 1. KAP Supoyo, Sutjahyo, Subyantara & Rekan, 2. KAP Riza,Adi, Syahril & Rekan, 3. CV Tepung Mas, 4. PT Abattoir Surya Jaya, 5. PT UMKM Indonesia, 6. Konsultan Akuntasi dan Teknik Multi Bina Sejahtera, 7. Koperasi KSM Rungkut Sejahtera, 8. Paguyupan UMKM Kecamatan Rungkut, 9. LKMK Kelurahan  Medokan Ayu, 10. KPP Supardi Djoko Susilo, 11. Koperasi Toko Kelontong Kec. Rungkut, 12. Lembaga Pendidikan dan Pengembangan Usaha Kecil Menengah (LP2UKM), 13. KAP Budi dan Azhari, 14. PT Petrokopindo Cipta Selaras, 15. KKP budi Tjiptono dan rekan, 16. KAP Buntaran & Lisawati, 17. KAP Richad Risambessy & Rekan, 18. KKP Harwa Persada Consulting, 19. KAP Habib Basuni & Heryadi, 20. Koperasi Wanita “Kartini Gadung”, 21. Paguyupan Koperasi Wanita Kecamatan Driyorejo Gresik, 22. Koperasi Wanita Sri Rejeki Desa Cemandi, Kecamatan Sedati. Sidoarjo, 23. Dinas KUMKM Provinsi Jawa Timur, 24. CV Awan Bhakti, 25. PT Dalijo Ulam Upadi, 26. PT Awan Karya Bangun Perkasa, 27. PT Morodadi Consulting, 28. PT Awan Karya Bhakti, 29. Badan Penelitian dan Pengembangan daerah Kab. Lamongan, 30. ICMA, 31. Pesantren Sunan Derajat Lamongan, 32. Accounting Research Institute UTM Mara Malaysia. Ini dilakukan dengan harapan para mahasiswa maupun alumni Manajemen UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Manajemen di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_kewirausahaan",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Kewirausahaan dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Pengusaha, 2. Founder/Co-Founder Star-Up, 3. Business Incubator, 4. Manajer Bisnis, 5. Manajer Pengembangan Bisnis, 6. Manajer Produk, 7. Konsultan Bisnis, 8. Pelatih Kewirausahaan, 9. Analis Investasi, 10. Manajer Risiko Keuangan, 11. Dosen, 12. Peneliti Kewirausahaan, 13. Pengusaha di Bidang Sosial, 14. Pengusaha di Organisasi Internasional, 15. Pengembang Produk Kreatif, 16. Pengusaha Teknologi. Adapun beberapa instansi atau perusahaan mitra Kewirausahaan UPN \"Veteran\" Jawa Timur, di antaranya: 1. Dinas Perindustrian dan Perdagangan Provinsi Jawa Timur. Ini dilakukan dengan harapan para mahasiswa maupun alumni Kewirausahaan UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Kewirausahaan di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknik_industri",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Teknik Industri dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. Manajer Produksi, 2. Cost Control Engineer, 3. Spesialis Rantai Pasok, 4. Quality Control, 5. Industrial Engineer, 6. Sales Engineer, 7. Spesialis Logistik, 8. Manajer Proyek. Adapun beberapa instansi atau perusahaan mitra Teknik Industri UPN \"Veteran\" Jawa Timur, di antaranya: 1. PT Laksana Bus. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Industri UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Industri di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknik_kimia",
             "patterns": [],
-            "responses": []
+            "responses": [
+                "Lulusan Teknik Kimia dari UPN \"Veteran\" Jawa Timur memiliki potensi pekerjaan yang cukup luas, beberapa di antaranya: 1. . Adapun beberapa instansi atau perusahaan mitra Teknik Kimia UPN \"Veteran\" Jawa Timur, di antaranya: 1. Pusat Pengembangan Sumber Data Manusia Minyak dan Gas Bumi, 2. PTPN X, 3. PT Energi Agro Nusantara, 4. PG Rejo Agung Baru Madiun, 5. BRIN, 6. PT Mitra Hijau, 7. PT Garam, 8. PT Madu Lingga Raharja, 9. PT Pertamina RU IV Balongan. Ini dilakukan dengan harapan para mahasiswa maupun alumni Teknik Kimia UPN \"Veteran\" Jawa Timur memperoleh ekosistem pendidikan dan pekerjaan yang baik guna menambah jumlah praktisi lulusan Teknik Kimia di Indonesia."
+            ]
         },
         {
             "tag": "profil_lulusan_perusahaan_teknologi_pangan",
