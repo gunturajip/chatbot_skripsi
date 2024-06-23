@@ -182,7 +182,11 @@ helpers = {
     "Kerja Dari Rumah": "work from home",
     "PMW": "wirausaha",
     "Kemampuan": "skill",
-    "UPN": "upnvjt"
+    "UPN": "upnvjt",
+    "Pekerjaan": "kerja",
+    "Bekerja": "kerja",
+    "Berkarir": "karir",
+    "Pemrograman": "programming"
 }
 for act in activations.keys():
     os.mkdir(act)

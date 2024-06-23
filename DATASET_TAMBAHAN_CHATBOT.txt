@@ -83,6 +83,10 @@
 - pmw -> wirausaha
 - kemampuan -> skill
 - UPN -> upnvjt
+- Pekerjaan -> kerja
+- Bekerja -> kerja
+- Berkarir -> karir
+- Pemrograman -> programming
 
 1. Profil Lulusan + Perusahaan Pendidikan Dokter
 2. Profil Lulusan + Perusahaan Profesi Dokter
