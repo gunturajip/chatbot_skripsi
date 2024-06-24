@@ -104,10 +104,10 @@ for act in activations.keys():
             model_name = act + opt
 
         model = Sequential()
-        model.add(Dense(8, input_shape=(len(X_train[0]),), activation=activations[act]))
-        model.add(Dense(12, activation=activations[act]))
-        model.add(Dense(12, activation=activations[act]))
-        model.add(Dense(12, activation=activations[act]))
+        model.add(Dense(12, input_shape=(len(X_train[0]),), activation=activations[act]))
+        model.add(Dense(17, activation=activations[act]))
+        model.add(Dense(17, activation=activations[act]))
+        model.add(Dense(17, activation=activations[act]))
         model.add(Dense(len(y_train[0]), activation=softmax))
         model.compile(loss=categorical_crossentropy,
                     optimizer=optimizers[opt], metrics=["accuracy"])
