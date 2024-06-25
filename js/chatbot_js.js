@@ -28,7 +28,7 @@ window.onload = async () => {
     classes = await fetch(`${window.location.origin}/chatbot/classes.txt`)
         .then((response) => response.text())
         .then((text) => text.trim().split('\r\n'));
-    model = await tf.loadLayersModel(`${window.location.origin}/chatbot/relu_sgd/model.json`);
+    model = await tf.loadLayersModel(`${window.location.origin}/chatbot/selu_sgd/model.json`);
 }
 
 const createChatLi = (message, className, currentMillis) => {
@@ -85,9 +85,9 @@ const handleChat = async () => {
 
         async function bag_of_words(sentence, stopwords, words, helpers) {
             const sentence_words = await clean_up_sentence(sentence, stopwords, helpers);
-            let bag = Array(461).fill(0);
+            let bag = Array(768).fill(0);
             for (let w of sentence_words) {
-                for (let i = 0; i < 461; i++) {
+                for (let i = 0; i < 768; i++) {
                     if (words[i] === w) {
                         bag[i] = 1;
                     }
@@ -103,7 +103,7 @@ const handleChat = async () => {
 
         async function predict_class() {
             const input = await prepare();
-            const prediction = await model.predict(tf.tensor(input, [1, 461])).data();
+            const prediction = await model.predict(tf.tensor(input, [1, 768])).data();
             const probThreshold = 0.25;
             let result = [];
             for (let i = 0; i < prediction.length; i++) {
